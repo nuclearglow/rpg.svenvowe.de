@@ -22,6 +22,9 @@ jeder char mit charakterblatt
 native
 Karte in voller Größe mit zoom
 
+## tech todo
+
+* lint-staged for svelte with prettier and eslint, markdownlint
 
 ## create-svelte
 
