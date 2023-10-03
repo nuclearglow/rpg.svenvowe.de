@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Fireflies from './fireflies.svelte';
   import Footer from './footer.svelte';
   import Header from './header.svelte';
 
@@ -9,6 +10,8 @@
   import '../styles/_reset.css';
   import '../styles/app.css';
 </script>
+
+<Fireflies />
 
 <div class="layout">
   <!-- Header -->
