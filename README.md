@@ -24,7 +24,8 @@ Karte in voller Größe mit zoom
 
 ## tech todo
 
-- lint-staged for svelte with prettier and eslint, markdownlint
+- DONE: https://davipon.hashnode.dev/add-lint-staged-to-sveltekit-project
+- DONE: https://dev.to/davipon/add-commitint-commitizen-standard-version-and-husky-to-sveltekit-project-14pc
 
 ## create-svelte
 
