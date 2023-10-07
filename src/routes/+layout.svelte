@@ -2,6 +2,7 @@
   import Fireflies from './fireflies.svelte';
   import Footer from './footer.svelte';
   import Header from './header.svelte';
+  import PageTransition from './transition.svelte';
 
   import 'open-props/buttons';
   import 'open-props/normalize';
@@ -9,6 +10,8 @@
 
   import '../styles/_reset.css';
   import '../styles/app.css';
+
+  export let data;
 </script>
 
 <Fireflies />
@@ -19,7 +22,9 @@
 
   <main>
     <!-- Black hole for other content -->
-    <slot />
+    <PageTransition url={data.url}>
+      <slot />
+    </PageTransition>
   </main>
 
   <!-- Footer -->
@@ -33,11 +38,6 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     margin-inline: auto;
-    padding-inline: var(--size-7);
-  }
-
-  main {
-    padding-block: var(--size-9);
   }
 
   @media (min-width: 1440px) {

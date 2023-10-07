@@ -26,15 +26,15 @@ module.exports = {
         parser: '@typescript-eslint/parser',
       },
       rules: {
-        "@typescript-eslint/no-unused-vars": [
-          "error", // or "error"
+        '@typescript-eslint/no-unused-vars': [
+          'error', // or "error"
           {
-            "argsIgnorePattern": "^_",
-            "varsIgnorePattern": "^_",
-            "caughtErrorsIgnorePattern": "^_"
-          }
+            argsIgnorePattern: '^_',
+            varsIgnorePattern: '^_',
+            caughtErrorsIgnorePattern: '^_',
+          },
         ],
-      }
+      },
     },
   ],
 };

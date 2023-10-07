@@ -1,1 +1,5 @@
-<h1>Karte von Aventurien</h1>
+<script>
+  import Zoom from 'svelte-zoom';
+</script>
+
+<Zoom src="/map.jpg" alt="Die Karte von Aventurien" />

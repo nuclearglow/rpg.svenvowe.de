@@ -1,10 +1,10 @@
 ---
-title: First post
-description: First post.
-date: '2023-4-14'
+title: Auf Garamboloschs Lichtung
+description: Start in ein neues Abenteuer
+date: '2023-9-22'
 categories:
-  - sveltekit
-  - svelte
+  - summary
+  - lore
 published: true
 ---
 

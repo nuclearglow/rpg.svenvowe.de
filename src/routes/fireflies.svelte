@@ -1,5 +1,6 @@
 <script>
-  const quantity = 15;
+  // inspired by https://codepen.io/mikegolus/pen/Jegvym
+  const quantity = 50;
 </script>
 
 {#each Array(quantity) as _, index (index)}
@@ -7,7 +8,7 @@
 {/each}
 
 <style lang="sass">
-$quantity: 15
+$quantity: 50
 
 .firefly
   position: fixed

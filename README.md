@@ -21,6 +21,7 @@ jeder char mit charakterblatt
 
 native
 Karte in voller Größe mit zoom
+map auf full screen anpassen --> anderes layout
 
 ## tech todo
 
