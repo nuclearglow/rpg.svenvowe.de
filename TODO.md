@@ -11,13 +11,16 @@
 
 ## style adjustments
 
+- check [MdsVex options](https://mdsvex.pngwn.io/docs/#options)
 - headlines, text, paddings, ...
 - content for the first campaign
 
 ## deployment
 
 - backup server
-- port script and set up
+- do https://kit.svelte.dev/docs/adapter-node
+- integrate with my pm2
+- port script and set up deployment
 - set up server subdomain with HTTPS
 - deploy and test
 

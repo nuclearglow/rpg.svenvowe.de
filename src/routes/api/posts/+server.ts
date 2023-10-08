@@ -21,7 +21,7 @@ async function getPosts() {
     .sort((first, second) => new Date(second.date).getTime() - new Date(first.date).getTime());
 }
 
-// provides http://localhost:5173/api/posts
+// provides /api/posts with all posts as JSON
 export async function GET() {
   const posts = await getPosts();
   return json(posts);
