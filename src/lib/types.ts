@@ -1,4 +1,4 @@
-export type Categories = 'summary' | 'experience' | 'lore';
+export type Categories = 'summary' | 'experience' | 'kilas' | 'lore';
 
 export type Post = {
   title: string;
