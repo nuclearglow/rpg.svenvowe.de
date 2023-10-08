@@ -29,8 +29,7 @@
   }
 
   .post {
-    max-inline-size: var(--size-content-3);
-    padding: 0 var(--size-4);
+    max-inline-size: var(--size-content-4);
   }
 
   .post:not(:last-child) {
@@ -38,8 +37,7 @@
   }
 
   .title {
-    font-size: var(--font-size-fluid-3);
-    text-transform: capitalize;
+    font-size: var(--font-size-fluid-1);
   }
 
   .date {

@@ -17,17 +17,14 @@
 <Fireflies />
 
 <div class="layout">
-  <!-- Header -->
   <Header />
 
   <main>
-    <!-- Black hole for other content -->
     <PageTransition url={data.url}>
       <slot />
     </PageTransition>
   </main>
 
-  <!-- Footer -->
   <Footer />
 </div>
 
@@ -38,11 +35,12 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     margin-inline: auto;
+    padding-inline: var(--size-1) var(--size-4);
   }
 
   @media (min-width: 1440px) {
     .layout {
-      padding-inline: 0;
+      padding-inline: var(--size-1);
     }
   }
 </style>

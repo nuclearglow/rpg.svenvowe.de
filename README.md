@@ -4,13 +4,12 @@ A Markdown Blog
 
 ## layout
 
-desktop: sidebar, mobile: burger menu
+menu stxyle: fixed, add maps, add icons, finalize
 
 ### Kampagne
 
 Markdown Blog Style: https://joyofcode.xyz/sveltekit-markdown-blog
 Zusammenfassungen + EP
-Kilas Chronik
 
 ### Abenteurer
 

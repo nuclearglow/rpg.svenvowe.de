@@ -104,10 +104,18 @@ li {
 }
 
 /* Global Post Markdown Styles */
+.prose :is(h2) {
+  font-size: var(--font-size-4);
+}
 
 .prose :is(h2, h3, h4, h5, h6) {
   margin-top: var(--size-8);
   margin-bottom: var(--size-3);
+  max-inline-size: unset;
+}
+
+.prose p {
+  max-inline-size: var(--size-content-4);
 }
 
 .prose p:not(:is(h2, h3, h4, h5, h6) + p) {

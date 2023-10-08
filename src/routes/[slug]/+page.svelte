@@ -33,8 +33,12 @@
 
 <style>
   article {
-    max-inline-size: var(--size-content-3);
+    max-inline-size: var(--size-content-4);
     margin-inline: auto;
+  }
+
+  h1 {
+    font-size: var(--font-size-6);
   }
 
   h1 + p {
@@ -51,5 +55,11 @@
   .tags > * {
     padding: var(--size-2) var(--size-3);
     border-radius: var(--radius-round);
+  }
+
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: var(--font-size-5);
+    }
   }
 </style>
