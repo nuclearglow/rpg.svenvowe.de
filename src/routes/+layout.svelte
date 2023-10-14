@@ -1,8 +1,7 @@
 <script lang="ts">
-  import Fireflies from './fireflies.svelte';
-  import Footer from './footer.svelte';
-  import Header from './header.svelte';
-  import PageTransition from './transition.svelte';
+  import Fireflies from '$lib/components/fireflies.svelte';
+  import Header from '$lib/components/header.svelte';
+  import PageTransition from '$lib/components/transition.svelte';
 
   import 'open-props/buttons';
   import 'open-props/normalize';
@@ -24,8 +23,6 @@
       <slot />
     </PageTransition>
   </main>
-
-  <Footer />
 </div>
 
 <style>
@@ -35,7 +32,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     margin-inline: auto;
-    padding-inline: var(--size-1) var(--size-4);
+    padding-inline: var(--size-4) var(--size-4);
   }
 
   @media (min-width: 1440px) {

@@ -15,15 +15,17 @@
   <!-- Title -->
   <hgroup>
     <h1>{data.meta.title}</h1>
-    <p>Published at {formatDate(data.meta.date)}</p>
+    <p>{formatDate(data.meta.date)}</p>
   </hgroup>
 
   <!-- Tags -->
+  <!-- TODO: re-instantiate when multiple tags are there, link the tags to display a filtered list
   <div class="tags">
     {#each data.meta.categories as category}
       <span class="surface-4">&num;{category}</span>
     {/each}
   </div>
+  -->
 
   <!-- Post -->
   <div class="prose">
@@ -46,7 +48,7 @@
     color: var(--text-2);
   }
 
-  .tags {
+  /* .tags {
     display: flex;
     gap: var(--size-3);
     margin-top: var(--size-7);
@@ -55,7 +57,7 @@
   .tags > * {
     padding: var(--size-2) var(--size-3);
     border-radius: var(--radius-round);
-  }
+  } */
 
   @media only screen and (max-width: 768px) {
     h1 {

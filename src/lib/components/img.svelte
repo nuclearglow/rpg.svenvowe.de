@@ -4,4 +4,6 @@
 </script>
 
 <!-- lazy loading images in the blog posts -->
-<img {src} {alt} loading="lazy" />
+<a href={src}>
+  <img {src} {alt} loading="lazy" />
+</a>

@@ -37,7 +37,7 @@
   }
 
   .title {
-    font-size: var(--font-size-fluid-1);
+    font-size: var(--font-size-fluid-2);
   }
 
   .date {

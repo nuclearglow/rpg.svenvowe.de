@@ -1,9 +1,13 @@
-<h3>Kilas</h3>
+<h3>Die Abenteurer</h3>
 
-<h3>Xenia</h3>
+<br />
 
-<h3>Duplo</h3>
+<h4>Kilas der Barde</h4>
 
-<h3>Gnar-Al</h3>
+<h4>Duplo die Diebin</h4>
 
-<h3>S</h3>
+<h4>Gnar-Al der Waldläufer</h4>
+
+<h4>Skarsnik der Paladin</h4>
+
+<h4>Xenia, ???</h4>
