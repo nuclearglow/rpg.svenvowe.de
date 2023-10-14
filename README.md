@@ -1,47 +1,13 @@
 # rpg.svenvowe.de
 
-A Markdown Blog
+My private RPG Markdown Blog (inspired by [this article]())
 
-## layout
+## Inspirations
 
-menu stxyle: fixed, add maps, add icons, finalize
-
-### Kampagne
-
-Markdown Blog Style: https://joyofcode.xyz/sveltekit-markdown-blog
-Zusammenfassungen + EP
-
-### Abenteurer
-
-native
-jeder char mit charakterblatt
-
-### Aventurien
-
-native
-Karte in voller Größe mit zoom
-map auf full screen anpassen --> anderes layout
-
-## tech todo
-
-- DONE: https://davipon.hashnode.dev/add-lint-staged-to-sveltekit-project
-- DONE: https://dev.to/davipon/add-commitint-commitizen-standard-version-and-husky-to-sveltekit-project-14pc
-
-## create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-### Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- [A SvelteKit markdown blog](https://joyofcode.xyz/sveltekit-markdown-blog)
+- [Add Lint Staged to SvelteKit](https://davipon.hashnode.dev/add-lint-staged-to-sveltekit-project)
+- [Add Commitlint to SvelteKit](https://dev.to/davipon/add-commitint-commitizen-standard-version-and-husky-to-sveltekit-project-14pc)
+- powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
 ### Developing
 
