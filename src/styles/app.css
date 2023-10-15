@@ -16,6 +16,7 @@ html {
   --surface-4-dark: var(--gray-9);
   --background-dark: var(--gradient-8);
   --border-dark: var(--gray-9);
+  --background-color: #1e1e1e;
 }
 
 :root {
@@ -54,8 +55,7 @@ body {
 html {
   color: var(--text-1);
   accent-color: var(--link);
-  background-image: var(--background);
-  background-attachment: fixed;
+  background-color: var(--background-color);
 }
 
 img {

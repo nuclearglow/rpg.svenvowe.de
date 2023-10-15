@@ -60,7 +60,7 @@
     border-radius: var(--radius-round);
   } */
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1440px) {
     h1 {
       font-size: var(--font-size-5);
     }

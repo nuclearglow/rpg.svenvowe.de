@@ -14,15 +14,31 @@
 
 <style lang="scss">
   nav {
+    position: fixed;
+    width: 100%;
+    height: var(--size-8);
+    padding: 0 var(--size-4);
+
+    max-width: 1440px;
+    background-color: var(--background-color);
+    box-shadow: 0 16px 8px -8px var(--background-color);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--size-6) var(--size-4) var(--size-6) 0;
 
     .links {
       display: flex;
       gap: var(--size-7);
       margin-block: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+      padding: 0 var(--size-3);
+
+      .links {
+        gap: var(--size-2);
+      }
     }
   }
 </style>

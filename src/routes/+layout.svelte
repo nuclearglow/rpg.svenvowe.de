@@ -27,15 +27,18 @@
 
 <style>
   .layout {
-    height: 100%;
     max-inline-size: 1440px;
     display: grid;
     grid-template-rows: auto 1fr auto;
     margin-inline: auto;
+  }
+
+  main {
+    padding-top: var(--size-10);
     padding-inline: var(--size-4) var(--size-4);
   }
 
-  @media (min-width: 1440px) {
+  @media only screen and (max-width: 1440px) {
     .layout {
       padding-inline: var(--size-1);
     }
