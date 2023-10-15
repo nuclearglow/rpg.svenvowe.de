@@ -29,7 +29,7 @@ Am 13. Tag der Travia sind wir gleich in der Frühe zu viert los. Rolah, Gnar’
 
 Nach 2 Tagen der Wanderung haben wir das „Tor zum Norden“ Lowangen erreicht. Auf einer Insel und durchzogen von Kanälen mitten im Svellt errichtet liefert die Stadt mit ihren hohen Mauern einen beeindruckenden Ausblick...
 
-![Karte von Lowangen](maps/lowangen-karte.jpg)
+![Karte von Lowangen](maps/lowangen.jpg)
 
 Nachdem Gnar’Al ausgekundschaftet hat dass zum Südtor hin noch die meisten fahrenden Händler, Reisenden und Bauern Eingang finden haben auch wir diesen Eingang gewählt. Mit Hilfe von etwas Magie (die ich fast ohne Fehlschläge zu wirken vermochte) konnten wir uns den Blicken der Wachen entziehen und uns geschickt durch das Gedränge am Tor hindurch schlängeln.
 
