@@ -89,6 +89,11 @@ const deploy = async () => {
             console.err(result.stderr)
         }
 
+        result = await ssh.execCommand('pm2 restart rpg-sveltekit', { cwd: credentials.remoteDeploymentsPath })
+        if (result.code > 0) {
+            console.err(result.stderr)
+        }
+
         console.log('Deployment complete')
     } else {
         console.log("");

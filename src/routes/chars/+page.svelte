@@ -2,11 +2,13 @@
 
 <br />
 
-<h4>Kilas der Barde</h4>
-
 <h4>Duplo die Diebin</h4>
 
 <h4>Gnar-Al der Waldläufer</h4>
+
+<h4>Kilas der Barde</h4>
+
+<h4>Rohla, die Waldläuferin</h4>
 
 <h4>Skarsnik der Paladin</h4>
 
