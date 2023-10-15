@@ -6,6 +6,7 @@ ssh -T $DEPLOYMENT_USERNAME@$DEPLOYMENT_HOST << EOSSH
 cd $DEPLOYMENT_PATH
 git pull
 npm ci
+npm run build
 cd $DEPLOYMENT_ECOSYSTEM_PATH
-pm2 restart ecosystem.config.js
+pm2 restart rpg-sveltekit
 EOSSH
