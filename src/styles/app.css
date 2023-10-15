@@ -113,7 +113,7 @@ li {
 
 .prose :is(ul, ol) {
   list-style-type: none;
-  list-style-image: url('icons/list-item.png');
+  list-style-image: url('/icons/list-item.png');
   list-style-position: outside;
 
   padding-left: var(--size-5);
