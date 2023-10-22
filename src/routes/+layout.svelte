@@ -7,6 +7,7 @@
   import 'open-props/normalize';
   import 'open-props/style';
 
+  import Footer from '$lib/components/footer.svelte';
   import '../styles/_reset.css';
   import '../styles/app.css';
 
@@ -23,6 +24,8 @@
       <slot />
     </PageTransition>
   </main>
+
+  <Footer />
 </div>
 
 <style>
