@@ -11,7 +11,22 @@ async function getPosts() {
 
       if (file && typeof file === 'object' && 'metadata' in file && slug) {
         const metadata = file.metadata as Omit<Post, 'slug'>;
-        const post = { ...metadata, slug } satisfies Post;
+
+        let content = '';
+
+        if (
+          'default' in file &&
+          file.default &&
+          typeof file.default === 'object' &&
+          'render' in file.default &&
+          typeof file.default.render === 'function'
+        ) {
+          const contents = file.default.render();
+          if (typeof contents === 'object' && 'html' in contents) {
+            content = contents.html;
+          }
+        }
+        const post = { ...metadata, content, slug } satisfies Post;
         return post;
       }
 

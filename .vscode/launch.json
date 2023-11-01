@@ -4,7 +4,7 @@
     {
       "name": "Debug Server",
       "request": "launch",
-      "runtimeArgs": ["run-script", "dev"],
+      "runtimeArgs": ["run-script", "dev", "--", "--port", "5175"],
       "runtimeExecutable": "npm",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",
@@ -18,7 +18,7 @@
       "osx": {
         "runtimeExecutable": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
       },
-      "url": "http://127.0.0.1:5173",
+      "url": "http://localhost:5175",
       "webRoot": "${workspaceFolder}"
     }
   ],

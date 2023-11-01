@@ -7,8 +7,9 @@
   <Menuitem url="/" icon="shard" text={config.title} />
 
   <div class="links">
-    <Menuitem url="/chars" icon="sheet" text="Abenteurer" />
-    <Menuitem url="/map" icon="map" text="Karten" />
+    <Menuitem url="/chars" icon="sheet" text={config.menuItemChars} />
+    <Menuitem url="/map" icon="map" text={config.menuItemMap} />
+    <Menuitem url="/search" icon="eye" text={config.menuItemSearch} />
   </div>
 </nav>
 
