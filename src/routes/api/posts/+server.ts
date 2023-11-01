@@ -1,5 +1,6 @@
 import { json } from '@sveltejs/kit';
 import type { Post } from '$lib/types';
+import { stripTags } from '$lib/utils';
 
 async function getPosts() {
   // get from local fs
@@ -23,7 +24,7 @@ async function getPosts() {
         ) {
           const contents = file.default.render();
           if (typeof contents === 'object' && 'html' in contents) {
-            content = contents.html;
+            content = stripTags(contents.html);
           }
         }
         const post = { ...metadata, content, slug } satisfies Post;

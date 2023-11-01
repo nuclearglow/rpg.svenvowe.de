@@ -29,25 +29,17 @@ export const actions = {
 
             const beforeIndex = Math.max(0, match.index - SEARCH_AREA_LENGTH);
 
-            let before = match.input.substring(
+            const before = match.input.substring(
               beforeIndex,
               Math.min(match.index, beforeIndex + SEARCH_AREA_LENGTH),
             );
-
-            if (before.includes('>')) {
-              before = before.split('>')?.pop() ?? before;
-            }
 
             const afterIndex = Math.min(
               match.input.length - SEARCH_AREA_LENGTH,
               match.index + match[0].length,
             );
 
-            let after = match.input.substring(afterIndex, afterIndex + SEARCH_AREA_LENGTH + 1);
-
-            if (after.includes('<')) {
-              after = after.split('<')?.shift() ?? after;
-            }
+            const after = match.input.substring(afterIndex, afterIndex + SEARCH_AREA_LENGTH + 1);
 
             return {
               match: match[0],

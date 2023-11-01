@@ -6,3 +6,7 @@ export function formatDate(date: string, dateStyle: DateStyle = 'long', locales 
   const dateFormatter = new Intl.DateTimeFormat(locales, { dateStyle });
   return dateFormatter.format(dateToFormat);
 }
+
+export function stripTags(s: string): string {
+  return s.replace(/(<([^>]+)>)/gi, '');
+}

@@ -6,11 +6,14 @@
   export let form;
 
   let searching = false;
+
+  let expanded: boolean;
+  $: expanded = Boolean(searching || form?.searchTerm?.length);
 </script>
 
 <form method="POST" action="?/search" use:enhance>
   <button type="submit">
-    <img class:expanded={searching} src="/icons/eye.png" alt="Suchen" />
+    <img class:expanded src="/icons/eye.png" alt="Suchen" />
   </button>
   <input
     type="text"
@@ -20,7 +23,7 @@
     on:blur={() => (searching = false)}
   />
   <button type="submit">
-    <img class:expanded={searching} src="/icons/eye.png" alt="Suchen" />
+    <img class:expanded src="/icons/eye.png" alt="Suchen" />
   </button>
 </form>
 
