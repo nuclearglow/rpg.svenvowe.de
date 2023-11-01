@@ -11,15 +11,15 @@
 
 <!-- Posts -->
 <section>
-  <ul class="posts">
+  <div class="posts">
     {#each data.posts as post}
-      <li class="post">
+      <div class="post">
         <a href={post.slug} class="title">{post.title}</a>
         <p class="date">{formatDate(post.date)}</p>
         <p class="description">{post.description}</p>
-      </li>
+      </div>
     {/each}
-  </ul>
+  </div>
 </section>
 
 <style>

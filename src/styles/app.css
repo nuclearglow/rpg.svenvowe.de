@@ -59,13 +59,20 @@ html {
 }
 
 img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+
   border-radius: var(--radius-3);
 }
 
 ul,
 ol {
-  list-style: none;
-  padding: 0;
+  list-style-type: none;
+  list-style-image: url('/icons/list-item.png');
+  list-style-position: outside;
+
+  padding-left: var(--size-5);
 }
 
 li {
@@ -110,14 +117,6 @@ li {
 
 .prose p:not(:is(h2, h3, h4, h5, h6) + p) {
   margin-top: var(--size-7);
-}
-
-.prose :is(ul, ol) {
-  list-style-type: none;
-  list-style-image: url('/icons/list-item.png');
-  list-style-position: outside;
-
-  padding-left: var(--size-5);
 }
 
 .prose :is(ul, ol) li {

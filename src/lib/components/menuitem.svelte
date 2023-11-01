@@ -21,10 +21,6 @@
     justify-content: flex-start;
 
     img {
-      image-rendering: pixelated;
-      image-rendering: -moz-crisp-edges;
-      image-rendering: crisp-edges;
-
       padding: 0 var(--size-1);
     }
 

@@ -1,13 +1,27 @@
 <script lang="ts">
   import { enhance } from '$app/forms';
   import * as config from '$lib/config';
+  import { formatDate } from '$lib/utils';
 
   export let form;
+
+  let searching = false;
 </script>
 
 <form method="POST" action="?/search" use:enhance>
-  <input type="text" name="search" value={form?.searchTerm ?? ''} />
-  <button type="submit"><img src="/icons/eye.png" alt="Suchen" /></button>
+  <button type="submit">
+    <img class:expanded={searching} src="/icons/eye.png" alt="Suchen" />
+  </button>
+  <input
+    type="text"
+    name="search"
+    value={form?.searchTerm ?? ''}
+    on:focus={() => (searching = true)}
+    on:blur={() => (searching = false)}
+  />
+  <button type="submit">
+    <img class:expanded={searching} src="/icons/eye.png" alt="Suchen" />
+  </button>
 </form>
 
 <!-- Posts -->
@@ -18,6 +32,7 @@
         {result.post.title}
       </a>
     </h3>
+    <p>{formatDate(result.post.date)}</p>
     <ul class="posts">
       {#each result.matches as match}
         <li class="match">
@@ -27,24 +42,53 @@
     </ul>
   {:else}
     {#if form?.success}
-      <p>{config.searchNoResults}</p>
+      <h3>{config.searchNoResults}</h3>
     {/if}
   {/each}
 </section>
 
 <style lang="scss">
-  input {
-    background-color: var(--background-color);
-    border-radius: var(--radius-2);
-    border: 1px solid gold;
-  }
+  form {
+    position: sticky;
+    top: var(--size-8);
+    width: 100%;
+    padding-bottom: var(--size-2);
 
-  button {
     background-color: var(--background-color);
+    box-shadow: 0 16px 8px -8px var(--background-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-1);
+
+    input {
+      border-radius: var(--radius-2);
+      border: 1px solid gold;
+
+      text-align: center;
+    }
+
+    button {
+      height: 30px;
+
+      background-color: var(--background-color);
+      border: none;
+      box-shadow: none;
+
+      img {
+        height: 20px;
+        transition: height linear 666ms;
+
+        &.expanded {
+          height: 30px;
+        }
+      }
+    }
   }
 
   h3 {
-    padding: var(--size-2);
+    padding: var(--size-3) 0;
   }
 
   li {
