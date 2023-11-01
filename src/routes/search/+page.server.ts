@@ -12,9 +12,10 @@ export const actions = {
       return { success: true, results: [] };
     }
 
+    const searchRegex = new RegExp(searchTerm, 'gis');
+
     const response = await event.fetch('/api/posts');
     const posts: Post[] = await response.json();
-    const searchRegex = new RegExp(searchTerm, 'gis');
 
     const results = posts.flatMap((post) => {
       const matches = [...post.content.matchAll(searchRegex)];
@@ -53,7 +54,6 @@ export const actions = {
       return [];
     });
 
-    // TODO: return search terms
     return { success: true, searchTerm, missing: !searchTerm, results };
   },
 };
