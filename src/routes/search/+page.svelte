@@ -1,24 +1,47 @@
 <script lang="ts">
   import { enhance } from '$app/forms';
   import * as config from '$lib/config';
+  import type { SearchResult } from '$lib/types.js';
   import { formatDate } from '$lib/utils';
 
   export let form;
 
   let searching = false;
 
+  let searchTerm: string;
+  $: searchTerm = form?.searchTerm ?? '';
+
   let expanded: boolean;
-  $: expanded = Boolean(searching || form?.searchTerm?.length);
+  $: expanded = Boolean(searching || searchTerm.length);
+
+  let results: SearchResult[];
+  $: results = form?.results ?? [];
+
+  export const snapshot = {
+    capture: () => ({ results, searchTerm }),
+    restore: ({ searchTerm: storedSearchTerm, results: storedResults }) => {
+      searchTerm = storedSearchTerm;
+      results = storedResults;
+    },
+  };
 </script>
 
-<form method="POST" action="?/search" use:enhance>
+<form
+  method="POST"
+  action="?/search"
+  use:enhance={() => {
+    return async ({ update }) => {
+      await update({ reset: false });
+    };
+  }}
+>
   <button type="submit">
     <img class:expanded src="/icons/eye.png" alt="Suchen" />
   </button>
   <input
     type="text"
     name="search"
-    value={form?.searchTerm ?? ''}
+    value={searchTerm}
     on:focus={() => (searching = true)}
     on:blur={() => (searching = false)}
   />
@@ -29,7 +52,7 @@
 
 <!-- Posts -->
 <section>
-  {#each form?.results ?? [] as result}
+  {#each results as result}
     <h3>
       <a href={result.post.slug} class="title">
         {result.post.title}
