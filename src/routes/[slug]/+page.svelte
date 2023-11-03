@@ -37,7 +37,7 @@
   article {
     max-inline-size: var(--size-content-4);
     margin-inline: auto;
-    margin-bottom: var(--size-6);
+    padding-bottom: var(--size-6);
   }
 
   h1 {
