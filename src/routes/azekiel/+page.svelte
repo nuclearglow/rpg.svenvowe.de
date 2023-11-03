@@ -2,19 +2,18 @@
   import { browser } from '$app/environment';
   import { onDestroy, onMount } from 'svelte';
 
-  let root: HTMLElement;
-
-  if (browser) {
-    root = <HTMLElement>document.querySelector(':root');
-  }
+  let root: HTMLElement | null;
 
   onMount(() => {
+    root = <HTMLElement>document?.querySelector(':root');
     root?.style?.setProperty('--color-firefly', 'red');
   });
 
   onDestroy(() => {
-    let root = <HTMLElement>document.querySelector(':root');
-    root?.style?.setProperty('--color-firefly', 'gold');
+    if (browser) {
+      root = <HTMLElement>document?.querySelector(':root');
+      root?.style?.setProperty('--color-firefly', 'gold');
+    }
   });
 </script>
 
