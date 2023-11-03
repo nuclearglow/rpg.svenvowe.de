@@ -1,7 +1,7 @@
 <h3>Stadtkarte von Lowangen</h3>
 
-<a href="/maps/lowangen.jpg">
-  <img src="/maps/lowangen.jpg" alt="Stadtkarte von Lowangen" loading="lazy" />
+<a href="/maps/lowangen-annotiert.jpg">
+  <img src="/maps/lowangen-annotiert.jpg" alt="Stadtkarte von Lowangen" loading="lazy" />
 </a>
 
 <h3>Karte von Aventurien</h3>
