@@ -3,7 +3,7 @@ import { dev } from '$app/environment';
 /**
  * Metadata
  */
-export const title = '???';
+export const title = 'Plot';
 export const description = 'Rooollenspiel';
 
 /**

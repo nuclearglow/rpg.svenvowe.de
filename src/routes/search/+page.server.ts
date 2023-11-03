@@ -1,5 +1,6 @@
 import { SEARCH_AREA_LENGTH } from '$lib/constants.js';
 import type { Post, SearchResponse } from '$lib/types.js';
+import { redirect } from '@sveltejs/kit';
 
 export const prerender = false;
 
@@ -10,6 +11,8 @@ export const actions = {
 
     if (!searchTerm) {
       return { success: true, results: [] };
+    } else if (searchTerm?.toLowerCase() === 'azekiel') {
+      throw redirect(302, '/azekiel');
     }
 
     const searchRegex = new RegExp(searchTerm, 'gis');

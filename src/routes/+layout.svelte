@@ -37,6 +37,8 @@
   }
 
   main {
+    height: 100vh;
+
     padding-top: var(--size-10);
     padding-inline: var(--size-4) var(--size-4);
   }
