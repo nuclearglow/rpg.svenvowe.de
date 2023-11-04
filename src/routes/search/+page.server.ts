@@ -7,7 +7,7 @@ export const prerender = false;
 export const actions = {
   search: async (event): Promise<SearchResponse> => {
     const formData = await event.request.formData();
-    const searchTerm = String(formData.get('search'));
+    const searchTerm = String(formData.get('search'))?.trim();
 
     if (!searchTerm) {
       return { success: true, results: [] };
