@@ -3,7 +3,7 @@
   import * as config from '$lib/config';
 </script>
 
-<nav>
+<nav id="menu">
   <Menuitem url="/" icon="shard" text={config.title} />
 
   <div class="links">

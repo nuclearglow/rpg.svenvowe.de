@@ -14,6 +14,7 @@ export type SearchResultMatch = {
   before: string;
   match: string;
   after: string;
+  hash: string;
 };
 
 export type SearchResult = {

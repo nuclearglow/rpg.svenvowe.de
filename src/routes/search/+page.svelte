@@ -17,6 +17,10 @@
   let results: SearchResult[];
   $: results = form?.results ?? [];
 
+  /**
+   * store search term and results in ephemeral cache
+   * it will survive local page navigation
+   */
   export const snapshot = {
     capture: () => ({ results, searchTerm }),
     restore: ({ searchTerm: storedSearchTerm, results: storedResults }) => {
@@ -31,6 +35,9 @@
   action="?/search"
   use:enhance={() => {
     return async ({ update }) => {
+      /**
+       * do not reset the form values after submit
+       */
       await update({ reset: false });
     };
   }}
@@ -62,7 +69,9 @@
     <ul class="posts">
       {#each result.matches as match}
         <li class="match">
-          ...{match.before}<span class="highlight"> {match.match}</span>{match.after}...
+          <a href={`${result.post.slug}?searchTerm=${searchTerm}#${match.hash}`}>
+            ...{match.before}<span class="highlight">{match.match}</span>{match.after}...
+          </a>
         </li>
       {/each}
     </ul>
@@ -119,10 +128,15 @@
 
   li {
     padding: var(--size-2) 0;
+
+    a {
+      text-decoration: none;
+      color: var(--text-color);
+    }
   }
 
   .highlight {
     color: gold;
-    text-shadow: 0 -1px 4px #fff, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #f00;
+    text-shadow: var(--text-shadow-fire);
   }
 </style>

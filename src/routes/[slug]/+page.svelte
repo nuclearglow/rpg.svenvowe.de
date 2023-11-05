@@ -1,7 +1,30 @@
 <script lang="ts">
+  import { SEARCH_RESULT_SCROLL_OFFSET } from '$lib/constants.js';
   import { formatDate } from '$lib/utils';
+  import { onMount } from 'svelte';
 
   export let data;
+
+  onMount(() => {
+    // manual anchor scrolling due to custom svelte component rendering
+    setTimeout(() => {
+      const id = window.location.hash.replace(/^#/, '');
+      const element = document.getElementById(id);
+      const menuElement = document.getElementById('menu');
+
+      if (id && element && menuElement) {
+        window.scrollTo({
+          behavior: 'smooth',
+          top: Math.max(
+            element.getBoundingClientRect().top -
+              menuElement.getBoundingClientRect().bottom -
+              SEARCH_RESULT_SCROLL_OFFSET,
+            0,
+          ),
+        });
+      }
+    }, 2000);
+  });
 </script>
 
 <svelte:head>
