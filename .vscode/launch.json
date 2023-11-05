@@ -4,7 +4,7 @@
     {
       "name": "Debug Server",
       "request": "launch",
-      "runtimeArgs": ["run-script", "dev", "--", "--port", "5175"],
+      "runtimeArgs": ["run-script", "dev", "--", "--port", "5175", "--host"],
       "runtimeExecutable": "npm",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",
