@@ -1,14 +1,17 @@
 <script lang="ts">
-  import { SEARCH_RESULT_SCROLL_OFFSET } from '$lib/constants.js';
+  import { SEARCH_RESULT_SCROLL_DELAY_MS, SEARCH_RESULT_SCROLL_OFFSET } from '$lib/constants.js';
   import { formatDate } from '$lib/utils';
   import { onMount } from 'svelte';
 
   export let data;
 
   onMount(() => {
-    // manual anchor scrolling due to custom svelte component rendering
+    /**
+     * Vanilla JS manual anchor scrolling due to custom MdsVeX svelte component rendering that seems
+     * to be detached from svelte onload events
+     */
     setTimeout(() => {
-      const id = window.location.hash.replace(/^#/, '');
+      const id = window.location.hash.substring(1);
       const element = document.getElementById(id);
       const menuElement = document.getElementById('menu');
 
@@ -23,7 +26,7 @@
           ),
         });
       }
-    }, 2000);
+    }, SEARCH_RESULT_SCROLL_DELAY_MS);
   });
 </script>
 
