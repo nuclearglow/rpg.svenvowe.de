@@ -81,8 +81,9 @@
   form {
     position: fixed;
     top: var(--size-8);
+    left: var(--size-4);
 
-    width: 100%;
+    width: calc(100% - 2 * var(--size-4));
     padding-bottom: var(--size-2);
 
     background-color: var(--background-color);
@@ -110,12 +111,13 @@
       box-shadow: none;
 
       img {
-        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
         transition: height linear 666ms;
 
         &.expanded {
-          min-width: 32px;
-          min-height: 32px;
+          min-width: 24px;
+          min-height: 24px;
         }
       }
     }
