@@ -23,7 +23,6 @@
     height: var(--size-8);
     padding: 0 var(--size-4);
 
-    max-width: 1440px;
     background-color: var(--background-color);
     box-shadow: 0 16px 8px -8px var(--background-color);
 
@@ -45,6 +44,11 @@
       .links {
         gap: var(--size-2);
       }
+    }
+
+    @media only screen and (min-width: 1280px) {
+      justify-content: center;
+      gap: var(--size-7);
     }
   }
 </style>
