@@ -53,6 +53,7 @@
     "@fontsource/oxygen-mono": "^5.0.14",
     "lucide-svelte": "^0.284.0",
     "open-props": "^1.6.4",
+    "prettier-plugin-jsdoc": "^0.4.2",
     "shiki": "^0.14.4",
     "svelte-zoom": "^1.0.16"
   }
