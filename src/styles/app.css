@@ -114,6 +114,10 @@ li {
   max-inline-size: unset;
 }
 
+.prose :is(p, h2, li) {
+  transition: text-shadow 666ms linear;
+}
+
 .prose p {
   max-inline-size: var(--size-content-4);
   text-wrap: pretty;

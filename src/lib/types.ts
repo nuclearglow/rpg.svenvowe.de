@@ -11,9 +11,16 @@ export type Post = {
 };
 
 export type SearchResultMatch = {
+  /** A range of characters directly before the search match */
   before: string;
+  /** The search result match */
   match: string;
+  /** A range of characters directly behind the search match */
   after: string;
+  /**
+   * SHA-256 hash of the paragraph that contains the search match. Used to set the anchor link to
+   * the page containing the search result
+   */
   hash: string;
 };
 

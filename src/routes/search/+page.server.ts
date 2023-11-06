@@ -43,14 +43,17 @@ export const actions = {
               const contentLength = matchArray.input.replace('\n\n', '').length;
 
               /**
-               * retrieve the boundary indices for all paragraphs of the post, get the paragraph content and compute the hash
+               * Retrieve the boundary indices for all paragraphs of the post, get the paragraph
+               * content and compute the hash
                */
               const [start = 0, end = 0] = getParagraphIndices(paragraphs, matchArray.index);
+
               const paragraph = post.content.substring(start, end).trim();
               const hash = await getHash(paragraph);
 
               /**
-               * the before index is ideally SEARCH_AREA_LENGTH before the search match itself, but is capped at 0
+               * The before index is ideally SEARCH_AREA_LENGTH before the search match itself, but
+               * is capped at 0
                */
               const beforeIndex = Math.max(0, matchArray.index - SEARCH_AREA_LENGTH);
 
@@ -60,7 +63,8 @@ export const actions = {
               );
 
               /**
-               * the after index is ideally SEARCH_AREA_LENGTH after the search match itself, but is capped at the end of the content
+               * The after index is ideally SEARCH_AREA_LENGTH after the search match itself, but is
+               * capped at the end of the content
                */
               const afterIndex = Math.min(matchArray.index + match.length, contentLength - 1);
 
