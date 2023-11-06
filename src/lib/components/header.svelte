@@ -4,7 +4,7 @@
 </script>
 
 <nav id="menu">
-  <Menuitem url="/" icon="shard" text={config.title} />
+  <Menuitem url="/" icon="hearth" text={config.title} />
 
   <div class="links">
     <Menuitem url="/chars" icon="sheet" text={config.menuItemChars} />
