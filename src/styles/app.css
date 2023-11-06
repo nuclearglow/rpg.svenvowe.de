@@ -124,7 +124,9 @@ li {
   padding: 0 var(--size-1);
 }
 
-.prose p.highlight {
+.prose h2.highlight,
+.prose p.highlight,
+.prose li.highlight {
   color: gold;
   text-shadow: var(--text-shadow-fire);
 }

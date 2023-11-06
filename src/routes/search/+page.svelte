@@ -17,10 +17,7 @@
   let results: SearchResult[];
   $: results = form?.results ?? [];
 
-  /**
-   * store search term and results in ephemeral cache
-   * it will survive local page navigation
-   */
+  /** Store search term and results in ephemeral cache it will survive local page navigation */
   export const snapshot = {
     capture: () => ({ results, searchTerm }),
     restore: ({ searchTerm: storedSearchTerm, results: storedResults }) => {
@@ -35,9 +32,7 @@
   action="?/search"
   use:enhance={() => {
     return async ({ update }) => {
-      /**
-       * do not reset the form values after submit
-       */
+      /** Do not reset the form values after submit */
       await update({ reset: false });
     };
   }}
@@ -84,8 +79,9 @@
 
 <style lang="scss">
   form {
-    position: sticky;
+    position: fixed;
     top: var(--size-8);
+
     width: 100%;
     padding-bottom: var(--size-2);
 
@@ -98,6 +94,10 @@
     gap: var(--size-1);
 
     input {
+      width: 100%;
+      min-width: 50px;
+      max-width: 300px;
+
       border-radius: var(--radius-2);
       border: 1px solid gold;
 
@@ -105,8 +105,6 @@
     }
 
     button {
-      height: 30px;
-
       background-color: var(--background-color);
       border: none;
       box-shadow: none;
@@ -116,10 +114,21 @@
         transition: height linear 666ms;
 
         &.expanded {
-          height: 30px;
+          min-width: 32px;
+          min-height: 32px;
         }
       }
     }
+  }
+
+  @media screen and (min-width: 1024px) {
+    form {
+      justify-content: flex-start;
+    }
+  }
+
+  section {
+    padding-top: var(--size-4);
   }
 
   h3 {

@@ -16,6 +16,9 @@
 <style lang="scss">
   nav {
     position: fixed;
+    top: 0;
+    left: 0;
+
     width: 100%;
     height: var(--size-8);
     padding: 0 var(--size-4);
@@ -27,6 +30,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font-size: var(--font-size-fluid-1);
 
     .links {
       display: flex;

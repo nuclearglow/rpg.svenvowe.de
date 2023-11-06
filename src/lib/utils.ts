@@ -1,15 +1,13 @@
 type DateStyle = Intl.DateTimeFormatOptions['dateStyle'];
 
 export function formatDate(date: string, dateStyle: DateStyle = 'long', locales = 'de') {
-  // Safari is mad about dashes in the date
+  /** Safari is mad about dashes in the date */
   const dateToFormat = new Date(date.replaceAll('-', '/'));
   const dateFormatter = new Intl.DateTimeFormat(locales, { dateStyle });
   return dateFormatter.format(dateToFormat);
 }
 
-/**
- * returns a SHA-256 in hex format of s
- */
+/** Returns a SHA-256 in hex format of s */
 export async function getHash(s: string) {
   const utf8 = new TextEncoder().encode(s);
   return crypto.subtle.digest('SHA-256', utf8).then((hashBuffer) => {
@@ -20,18 +18,22 @@ export async function getHash(s: string) {
 }
 
 /**
- * remove all html tags from a content string, but insert a double newline for each paragraph tag
+ * Remove all html tags from a content string, with these exceptions:
+ *
+ * - P,h2 and li are replaced by double newlines for the search method
  */
 export function stripTags(s: string): string {
   return s
     .replace(/<p.*?>/gi, '\n\n')
     .replace(/<\/p>/gi, '\n\n')
+    .replace(/<h2.*?>/gi, '\n\n')
+    .replace(/<\/h2>/gi, '\n\n')
+    .replace(/<li.*?>/gi, '\n\n')
+    .replace(/<\/li>/gi, '\n\n')
     .replace(/(<([^>]+)>)/gi, '');
 }
 
-/**
- * returns an array of string indices where a double newline occurs
- */
+/** Returns an array of string indices where a double newline occurs */
 export function getAllParagraphIndices(content: string): number[] {
   const indices: number[] = [];
   content.replace(/\n\n/gis, (_, index) => {
@@ -43,7 +45,8 @@ export function getAllParagraphIndices(content: string): number[] {
 }
 
 /**
- * with the ordered indices of paragraph starting points and an index which needs to be located, return the neighboring array items that clamp the index
+ * With the ordered indices of paragraph starting points and an index which needs to be located,
+ * return the neighboring array items that clamp the index
  */
 export function getParagraphIndices(indices: number[], index?: number): number[] {
   if (!index || !indices?.length) {
@@ -64,4 +67,22 @@ export function getParagraphIndices(indices: number[], index?: number): number[]
   }
 
   return [];
+}
+
+/**
+ * Takes the hash of the content and the content itself and returns true if the location hash
+ * matches and searchTerm is found in the content, else false
+ */
+export function isHighlightedBySearchTerm(paragraphHash: string, paragraphContent: string) {
+  let isHighlighted = false;
+
+  const { search, hash } = window.location;
+
+  const urlParams = new URLSearchParams(search);
+  const searchTerm = urlParams.get('searchTerm') ?? '';
+
+  if (paragraphHash === hash.substring(1) && searchTerm !== null) {
+    isHighlighted = paragraphContent.toLowerCase().includes(searchTerm.toLowerCase());
+  }
+  return isHighlighted;
 }

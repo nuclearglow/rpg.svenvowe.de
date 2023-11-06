@@ -3,9 +3,7 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 import { mdsvex, escapeSvelte } from 'mdsvex';
 import shiki from 'shiki';
 
-/**
- * Markdown Pre-Processor
- */
+/** Markdown Pre-Processor */
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
   extensions: ['.md'],
@@ -20,7 +18,7 @@ const mdsvexOptions = {
   },
   // provide custom Svelte components inside Markdown
   layout: {
-    _: './src/mdsvex.svelte',
+    _: './src/lib/components/mdsvex/mdsvex.svelte',
   },
 };
 
