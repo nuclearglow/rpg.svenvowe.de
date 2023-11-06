@@ -86,7 +86,7 @@
     top: var(--size-8);
     left: var(--size-4);
 
-    width: min(1440px, calc(100% - 2 * var(--size-4)));
+    width: calc(100% - 2 * var(--size-4));
     padding-bottom: var(--size-2);
 
     background-color: var(--background-color);
@@ -135,6 +135,7 @@
   }
 
   li {
+    max-inline-size: unset;
     padding: var(--size-2) 0;
 
     a {
