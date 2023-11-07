@@ -8,6 +8,7 @@ Private RPG Campaign Markdown Blog
 - [Add Lint Staged to SvelteKit](https://davipon.hashnode.dev/add-lint-staged-to-sveltekit-project)
 - [Add Commitlint to SvelteKit](https://dev.to/davipon/add-commitint-commitizen-standard-version-and-husky-to-sveltekit-project-14pc)
 - powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+- [`css fire`](https://codepen.io/freedommayer/pen/vYRrarM)
 
 ### Developing
 
@@ -16,7 +17,7 @@ Once you've created a project and installed dependencies with `npm install` (or 
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# start the server and open the app in a new browser tab
 npm run dev -- --open --host
 ```
 
