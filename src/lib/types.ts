@@ -1,5 +1,14 @@
 export type Categories = 'Abenteuerpunkte' | 'Chronik' | 'Lore';
 
+export type MarkdownFile = {
+  metadata: Record<string, unknown>;
+  default: {
+    render: () => {
+      html: string;
+    };
+  };
+};
+
 export type Post = {
   title: string;
   slug: string;
@@ -34,4 +43,12 @@ export type SearchResponse = {
   searchTerm?: string;
   missing?: boolean;
   results: SearchResult[];
+};
+
+export type TimelineEvent = {
+  title: string;
+  slug: string;
+  date: string;
+  published: boolean;
+  content: string[];
 };

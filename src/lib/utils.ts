@@ -1,3 +1,5 @@
+import { TIMELINE_OFFSET, TIMELINE_POSTFIX } from '$lib/constants';
+
 type DateStyle = Intl.DateTimeFormatOptions['dateStyle'];
 
 export function formatDate(date: string, dateStyle: DateStyle = 'long', locales = 'de') {
@@ -5,6 +7,16 @@ export function formatDate(date: string, dateStyle: DateStyle = 'long', locales 
   const dateToFormat = new Date(date.replaceAll('-', '/'));
   const dateFormatter = new Intl.DateTimeFormat(locales, { dateStyle });
   return dateFormatter.format(dateToFormat);
+}
+
+export function formatTimelineDate(date: string): string {
+  return `${TIMELINE_OFFSET + Number.parseInt(date)} ${TIMELINE_POSTFIX}`;
+}
+
+/** Returns a slug of the filename and the file extension */
+export function getSlug(path: string, extension: string): string {
+  const ext = extension.startsWith('.') ? extension : `.${extension}`;
+  return path.split('/').at(-1)?.replace(ext, '') ?? '';
 }
 
 /** Returns a SHA-256 in hex format of s */
