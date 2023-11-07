@@ -87,7 +87,8 @@
     left: var(--size-4);
 
     width: calc(100% - 2 * var(--size-4));
-    padding-bottom: var(--size-2);
+
+    padding: var(--size-3) 0 var(--size-1);
 
     background-color: var(--background-color);
     box-shadow: 0 16px 8px -8px var(--background-color);
