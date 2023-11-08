@@ -1,9 +1,13 @@
 <script lang="ts">
+  import { page } from '$app/stores';
   import Menuitem from '$lib/components/menuitem.svelte';
   import * as config from '$lib/config';
+
+  let path: string;
+  $: path = $page.url.pathname;
 </script>
 
-<nav id="menu">
+<nav id="menu" class:no-shadow={path === '/search'}>
   <Menuitem url="/" icon="hearth" text={config.title} />
 
   <div class="links">
@@ -27,6 +31,10 @@
 
     background-color: var(--background-color);
     box-shadow: 0 16px 8px -8px var(--background-color);
+
+    &.no-shadow {
+      box-shadow: none;
+    }
 
     display: flex;
     justify-content: space-between;

@@ -27,30 +27,32 @@
   };
 </script>
 
-<form
-  method="POST"
-  action="?/search"
-  use:enhance={() => {
-    return async ({ update }) => {
-      /** Do not reset the form values after submit */
-      await update({ reset: false });
-    };
-  }}
->
-  <button type="submit">
-    <img class:expanded src="/icons/eye.png" alt="Suchen" />
-  </button>
-  <input
-    type="text"
-    name="search"
-    value={searchTerm}
-    on:focus={() => (searching = true)}
-    on:blur={() => (searching = false)}
-  />
-  <button type="submit">
-    <img class:expanded src="/icons/eye.png" alt="Suchen" />
-  </button>
-</form>
+<div class="search">
+  <form
+    method="POST"
+    action="?/search"
+    use:enhance={() => {
+      return async ({ update }) => {
+        /** Do not reset the form values after submit */
+        await update({ reset: false });
+      };
+    }}
+  >
+    <button type="submit">
+      <img class:expanded src="/icons/eye.png" alt="Suchen" />
+    </button>
+    <input
+      type="text"
+      name="search"
+      value={searchTerm}
+      on:focus={() => (searching = true)}
+      on:blur={() => (searching = false)}
+    />
+    <button type="submit">
+      <img class:expanded src="/icons/eye.png" alt="Suchen" />
+    </button>
+  </form>
+</div>
 
 <!-- Posts -->
 <section>
@@ -81,47 +83,53 @@
 </section>
 
 <style lang="scss">
-  form {
+  .search {
     position: fixed;
     top: var(--size-8);
-    left: var(--size-4);
+    left: 0;
+    right: 0;
+    width: 100%;
 
-    width: calc(100% - 2 * var(--size-4));
-
-    padding: var(--size-3) 0 var(--size-1);
+    padding: var(--size-1) 0 var(--size-1);
 
     background-color: var(--background-color);
     box-shadow: 0 16px 8px -8px var(--background-color);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--size-1);
+    form {
+      padding: 0 var(--size-4);
 
-    input {
-      width: 100%;
-      min-width: 50px;
-      max-width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: var(--size-1);
 
-      border-radius: var(--radius-2);
-      border: 1px solid gold;
+      input {
+        width: 100%;
+        min-width: 50px;
+        max-width: 300px;
 
-      text-align: center;
-    }
+        border-radius: var(--radius-2);
+        border: 1px solid gold;
 
-    button {
-      background-color: var(--background-color);
-      border: none;
-      box-shadow: none;
+        text-align: center;
 
-      img {
-        min-width: 20px;
-        min-height: 20px;
-        transition: height linear 666ms;
+        outline: none;
+      }
 
-        &.expanded {
-          min-width: 24px;
-          min-height: 24px;
+      button {
+        background-color: var(--background-color);
+        border: none;
+        box-shadow: none;
+
+        img {
+          min-width: 20px;
+          min-height: 20px;
+          transition: height linear 666ms;
+
+          &.expanded {
+            min-width: 24px;
+            min-height: 24px;
+          }
         }
       }
     }
