@@ -3,12 +3,13 @@ import { dev } from '$app/environment';
 /** Metadata */
 export const title = 'Plot';
 export const description = 'Rooollenspiel';
-export const eventsTitle = 'Zeitstrahl';
+export const timelineTitle = 'Zeit';
 
-/** Menu Items */
+/** Menu */
 export const menuItemChars = 'Gruppe';
 export const menuItemMap = 'Karten';
 export const menuItemSearch = 'Suchen';
+export const campaignUrls = ['/', 'timeline'];
 
 /** Search */
 export const searchNoResults = 'Nix gefunden';

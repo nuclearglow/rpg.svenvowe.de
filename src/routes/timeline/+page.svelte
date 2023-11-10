@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>{config.eventsTitle}</title>
+  <title>{config.timelineTitle}</title>
 </svelte:head>
 
 <section>

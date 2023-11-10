@@ -7,8 +7,11 @@
   $: path = $page.url.pathname;
 </script>
 
-<nav id="menu" class:no-shadow={path === '/search'}>
-  <Menuitem url="/" icon="hearth" text={config.title} />
+<nav id="menu" class="primary" class:no-shadow={path === '/search'}>
+  <div class="campaign">
+    <Menuitem url="/" icon="hearth" text={config.title} />
+    <Menuitem url="/timeline" icon="timeline" text={config.timelineTitle} />
+  </div>
 
   <div class="links">
     <Menuitem url="/chars" icon="sheet" text={config.menuItemChars} />
@@ -18,7 +21,7 @@
 </nav>
 
 <style lang="scss">
-  nav {
+  .primary {
     position: fixed;
     top: 0;
     left: 0;
@@ -39,8 +42,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: var(--size-4);
 
-    font-size: var(--font-size-fluid-1);
+    .campaign {
+      display: flex;
+      gap: var(--size-7);
+      margin-block: 0;
+    }
 
     .links {
       display: flex;
@@ -48,8 +56,18 @@
       margin-block: 0;
     }
 
+    @media only screen and (max-width: 400px) {
+      font-size: var(--font-size-fluid-1);
+      font-weight: var(--font-weight-1);
+      letter-spacing: var(--font-letterspacing-0);
+    }
+
     @media only screen and (max-width: 768px) {
       padding: 0 var(--size-3);
+
+      .campaign {
+        gap: var(--size-2);
+      }
 
       .links {
         gap: var(--size-2);
