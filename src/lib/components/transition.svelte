@@ -1,11 +1,14 @@
 <script lang="ts">
+  import { page } from '$app/stores';
+  import { transitionDelay, transitionDuration } from '$lib/config';
   import { fade } from 'svelte/transition';
 
-  export let url: string;
+  let path: string;
+  $: path = $page.url.pathname;
 </script>
 
-{#key url}
-  <div class="transition" in:fade>
+{#key path}
+  <div class="transition" in:fade={{ delay: transitionDelay, duration: transitionDuration }}>
     <slot />
   </div>
 {/key}

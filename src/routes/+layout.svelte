@@ -10,8 +10,6 @@
   import Footer from '$lib/components/footer.svelte';
   import '../styles/_reset.css';
   import '../styles/app.css';
-
-  export let data;
 </script>
 
 <Fireflies />
@@ -20,7 +18,7 @@
   <Header />
 
   <main>
-    <PageTransition url={data.url}>
+    <PageTransition>
       <slot />
     </PageTransition>
   </main>

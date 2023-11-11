@@ -9,7 +9,10 @@ export const timelineTitle = 'Zeit';
 export const menuItemChars = 'Gruppe';
 export const menuItemMap = 'Karten';
 export const menuItemSearch = 'Suchen';
-export const campaignUrls = ['/', 'timeline'];
+
+/** Transition Options */
+export const transitionDelay = 111;
+export const transitionDuration = 666;
 
 /** Search */
 export const searchNoResults = 'Nix gefunden';
