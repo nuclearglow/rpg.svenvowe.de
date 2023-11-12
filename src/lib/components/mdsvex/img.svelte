@@ -5,5 +5,5 @@
 
 <!-- lazy loading images in the blog posts -->
 <a href={src}>
-  <img {src} {alt} loading="lazy" />
+  <img loading="lazy" {src} {alt} />
 </a>
