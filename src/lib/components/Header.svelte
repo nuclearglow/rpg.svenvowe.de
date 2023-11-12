@@ -1,23 +1,20 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import Menuitem from '$lib/components/menuitem.svelte';
-  import * as config from '$lib/config';
+  import MenuItem from '$lib/components/MenuItem.svelte';
+  import { menu } from '$lib/config';
 
   let path: string;
   $: path = $page.url.pathname;
 </script>
 
 <nav id="menu" class="primary" class:no-shadow={path === '/search'}>
-  <div class="campaign">
-    <Menuitem url="/" icon="hearth" text={config.title} />
-    <Menuitem url="/timeline" icon="timeline" text={config.timelineTitle} />
-  </div>
-
-  <div class="links">
-    <Menuitem url="/chars" icon="sheet" text={config.menuItemChars} />
-    <Menuitem url="/map" icon="map" text={config.menuItemMap} />
-    <Menuitem url="/search" icon="eye" text={config.menuItemSearch} />
-  </div>
+  {#each Object.entries(menu) as [category, menuItems]}
+    <div class={category}>
+      {#each menuItems as item}
+        <MenuItem {...item} />
+      {/each}
+    </div>
+  {/each}
 </nav>
 
 <style lang="scss">
@@ -50,7 +47,7 @@
       margin-block: 0;
     }
 
-    .links {
+    .lore {
       display: flex;
       gap: var(--size-7);
       margin-block: 0;
@@ -69,7 +66,7 @@
         gap: var(--size-2);
       }
 
-      .links {
+      .lore {
         gap: var(--size-2);
       }
     }

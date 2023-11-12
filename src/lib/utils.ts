@@ -98,3 +98,16 @@ export function isHighlightedBySearchTerm(paragraphHash: string, paragraphConten
   }
   return isHighlighted;
 }
+
+export function partitionBy<T>(
+  arr: T[],
+  predicate: (value: T, index: number, array: T[]) => boolean,
+) {
+  return arr.reduce(
+    (acc, item, index, array) => {
+      acc[+!predicate(item, index, array)].push(item);
+      return acc;
+    },
+    [[], []] as [T[], T[]],
+  );
+}

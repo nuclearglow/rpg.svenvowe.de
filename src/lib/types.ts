@@ -1,3 +1,5 @@
+/** Content */
+
 export type Categories = 'Abenteuerpunkte' | 'Chronik' | 'Lore';
 
 export type MarkdownFile = {
@@ -18,6 +20,19 @@ export type Post = {
   published: boolean;
   content: string;
 };
+
+/** Menu */
+
+export type MenuItem = {
+  url: string;
+  icon: string;
+  text: string;
+  category: 'campaign' | 'lore';
+};
+
+export type Menu = Record<string, MenuItem[]>;
+
+/** Search */
 
 export type SearchResultMatch = {
   /** A range of characters directly before the search match */

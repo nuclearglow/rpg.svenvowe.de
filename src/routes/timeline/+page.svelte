@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Fire from '$lib/components/fire.svelte';
+  import Fire from '$lib/components/Fire.svelte';
   import * as config from '$lib/config';
   import { formatTimelineDate } from '$lib/utils';
 

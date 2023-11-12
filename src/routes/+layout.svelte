@@ -1,13 +1,13 @@
 <script lang="ts">
-  import Fireflies from '$lib/components/fireflies.svelte';
-  import Header from '$lib/components/header.svelte';
-  import PageTransition from '$lib/components/transition.svelte';
-
   import 'open-props/buttons';
   import 'open-props/normalize';
   import 'open-props/style';
 
-  import Footer from '$lib/components/footer.svelte';
+  import Fireflies from '$lib/components/Fireflies.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+  import Header from '$lib/components/Header.svelte';
+  import Transition from '$lib/components/Transition.svelte';
+
   import '../styles/_reset.css';
   import '../styles/app.css';
 </script>
@@ -18,9 +18,9 @@
   <Header />
 
   <main>
-    <PageTransition>
+    <Transition>
       <slot />
-    </PageTransition>
+    </Transition>
   </main>
 
   <Footer />
