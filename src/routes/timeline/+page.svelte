@@ -15,7 +15,7 @@
     {#each data.events as event}
       <li class="event" data-date={formatTimelineDate(event.date)}>
         <Fire />
-        <h3>{event.title}</h3>
+        <h4>{event.title}</h4>
         <ul>
           {#each event.content as content}
             <li>{content}</li>
@@ -26,7 +26,6 @@
 </section>
 
 <style lang="less">
-  /* Variables */
   @background: var(--color-background);
 
   @color-primary: #c7530c;
@@ -36,8 +35,10 @@
   @spacing: 25px;
   @radius: 4px;
 
+  @eventOffset: 8px;
+
   @date: 120px;
-  @dotborder: 4px;
+  @dotBorder: 4px;
   @dot: 11px;
   @line: 2px;
 
@@ -72,7 +73,7 @@
 
     color: var(--color-text);
 
-    margin-left: (@date * 0.6) + @line + @dot + (@dotborder * 2);
+    margin-left: (@date * 0.6) + @line + @dot + (@dotBorder * 2);
     margin-bottom: var(--size-6);
 
     text-align: left;
@@ -85,7 +86,7 @@
       position: relative;
 
       margin-bottom: @spacing;
-
+      padding-top: @eventOffset;
       padding-bottom: (@spacing * 0.5);
 
       &:last-of-type {
@@ -102,8 +103,8 @@
       }
 
       &:before {
-        top: 6px;
-        left: (((@date * 0.6) + @spacing + @line + @dot + (@dotborder * 2)) * 1.5) * -1;
+        top: @eventOffset;
+        left: (((@date * 0.6) + @spacing + @line + @dot + (@dotBorder * 2)) * 1.5) * -1;
 
         color: fade(@color-light, 50%);
         content: attr(data-date);
