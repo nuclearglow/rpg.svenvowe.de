@@ -68,7 +68,7 @@
         <li class="match">
           <a
             data-sveltekit-reload
-            href={`${result.post.slug}?searchTerm=${searchTerm}#${match.hash}`}
+            href={`post/${result.post.slug}?searchTerm=${searchTerm}#${match.hash}`}
           >
             ...{match.before}<span class="highlight">{match.match}</span>{match.after}...
           </a>

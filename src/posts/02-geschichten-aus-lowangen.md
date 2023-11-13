@@ -15,13 +15,13 @@ Seitdem die Praioskirche diese empfindliche Niederlage mit der Veröffentlichung
 
 Skarsnik ist mit dem Selbstverständnis und Selbstbewusstsein eines Ordensmeisters der Rondra (zugegebenermaßen ist er der einzige verbliebene Recke seines Ordens) an die Wachen heran geritten und hat sich vom Rücken seines riesigen Reittiers herab über die Gottesdienstzeiten der Rondrakirche zu Lowangen drüben auf der anderen Seite erkundigt und ganz selbstverständlich den Wachen zu verstehen gegeben dass er zu gegebener Stunde Durchlass einfordern wird.
 
-![Übergang nach Alt-Lowangen](maps/lowangen-uebergang-alt-lowangen.jpg)
+![Übergang nach Alt-Lowangen](/maps/lowangen-uebergang-alt-lowangen.jpg)
 
 Da der Rest von uns lieber nicht unser Gesicht den Wachen zeigen wollte, haben wir uns vorsichtig umgeschaut. Rolah und Gnar’Al haben einen Blick von den Docks herüber gewagt, Duplo hat in weitem Bogen um die Wachen von der nördlichen Seite den Brückenkopf ausgekundschaftet und ich habe mit etwas Hilfe von unseren beiden starken Waldläufern einen Satz auf ein angrenzendes Dach gemacht. Uns allen hat sich das selbe Bild eröffnet. Die beeindruckende Brücke welche die Stadtteile verbindet reicht in großer Höhe über den Svellt und drüben warten hohe trutzige Mauern die ein einfaches rüber schwimmen und erklettern schwer machen sollten. Wachen vor dem Brückenkopf, Wachen auf den Türmen und gründliche Kontrollen für alle die hinüber wollen.
 
 Zurück auf dem Weg zum Markt haben wir uns beratschlagt wie wir den Weg nach Alt-Lowangen beschreiten sollen. Duplolas vertraut auf ihre Täuschungskünste und meinte als Ariane Landmann, Studierende des Donnerbacher Kollegs, werde sie schon einen Weg finden. Skarsnik konnte sie mit ihrem Studium im Kolleg zumindest schonmal beeindrucken. Zusammen wollen die beiden ihr Glück auf offiziellem Wege versuchen, den in Alt-Lowangen liegt schließlich auch der Rondra Tempel, zu dem Skarsnik als Mitglied der Kinder des Zorns, der Zutritt gewährt werden muss. Für uns blieb die Frage ob wir vielleicht mit Xenias Wagen und einem passenden Passierschein den Weg hinüber wagen könnten. Ein Passierschein wie wir ihn vielleicht bei der Diebesgilde erstehen könnten...
 
-![Lowangen](maps/lowangen-annotiert.jpg)
+![Lowangen](/maps/lowangen-annotiert.jpg)
 
 ## Ein Abend in Xenias Suppenküche
 

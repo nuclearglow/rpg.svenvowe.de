@@ -14,7 +14,7 @@
   <div class="posts">
     {#each data.posts as post}
       <div class="post">
-        <a href={post.slug} class="title">{post.title}</a>
+        <a href="post/{post.slug}" class="title">{post.title}</a>
         <p class="date">{formatDate(post.date)}</p>
         <p class="description">{post.description}</p>
       </div>

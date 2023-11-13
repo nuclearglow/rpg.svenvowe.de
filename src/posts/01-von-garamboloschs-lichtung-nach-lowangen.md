@@ -25,15 +25,15 @@ Ein Einbruch in die Praiosgeführte Festung von Lowangen. Aufregend und ein orde
 
 Am 13. Tag der Travia sind wir gleich in der Frühe zu viert los. Rolah, Gnar’Al, Duplolas und ich während Valinor noch weitere Recherchen anstellen möchte und vorerst zurück bleibt. Ausgestattet von unserem Freund Gerambolosch und unterwegs noch mit Einkäufen im beschaulichen Arsingen eingedeckt sind wir die Oststraße von Arsingen bei bestem Herbstwetter und in den farbenfroh leuchtenden Wäldern des Svelltals nach Lowangen gewandert…
 
-![Reise nach Lowangen](maps/reise-nach-lowangen.jpg)
+![Reise nach Lowangen](/maps/reise-nach-lowangen.jpg)
 
 Nach 2 Tagen der Wanderung haben wir das „Tor zum Norden“ Lowangen erreicht. Auf einer Insel und durchzogen von Kanälen mitten im Svellt errichtet liefert die Stadt mit ihren hohen Mauern einen beeindruckenden Ausblick...
 
-![Karte von Lowangen](maps/lowangen.jpg)
+![Karte von Lowangen](/maps/lowangen.jpg)
 
 Nachdem Gnar’Al ausgekundschaftet hat dass zum Südtor hin noch die meisten fahrenden Händler, Reisenden und Bauern Eingang finden haben auch wir diesen Eingang gewählt. Mit Hilfe von etwas Magie (die ich fast ohne Fehlschläge zu wirken vermochte) konnten wir uns den Blicken der Wachen entziehen und uns geschickt durch das Gedränge am Tor hindurch schlängeln.
 
-![Südtor zu Lowangen](maps/lowangen-suedtor.jpg)
+![Südtor zu Lowangen](/maps/lowangen-suedtor.jpg)
 
 Angekommen in Lowangen hatten wir, nebst der vielen wundersamen Eindrücken von der größten Handelsstadt des Nordens, gleich zwei neue spannende Begegnungen: Zuerst haben wir **Skarsnik**, den kleinen grünen Goblin-Champion der Rondra beobachten können, wie er mit Brief und Siegel den ignoranten Praioswachen den Zutritt zur Stadt abgerungen hat. Genauso ein ungewöhnlicher Außenseiter wie der Rest unserer Gefährtinnen lässt er sich am besten als „ein tapferer Recke von kleiner Statur aber mit großem Herzen beschreiben“.
 

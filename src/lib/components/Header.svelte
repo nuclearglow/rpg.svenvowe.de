@@ -7,7 +7,7 @@
   $: path = $page.url.pathname;
 </script>
 
-<nav id="menu" class="primary" class:no-shadow={path === '/search'}>
+<nav id="menu" class:no-shadow={path === '/search'}>
   {#each Object.entries(menu) as [category, menuItems]}
     <div class={category}>
       {#each menuItems as item}
@@ -18,7 +18,7 @@
 </nav>
 
 <style lang="scss">
-  .primary {
+  nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -54,18 +54,25 @@
     }
 
     @media only screen and (max-width: 400px) {
+      padding: 0 var(--size-1);
       font-size: var(--font-size-fluid-1);
       font-weight: var(--font-weight-1);
       letter-spacing: var(--font-letterspacing-0);
+
+      gap: var(--size-1);
+
+      .campaign,
+      .lore {
+        gap: var(--size-1);
+      }
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (min-width: 401px) and (max-width: 768px) {
       padding: 0 var(--size-3);
 
-      .campaign {
-        gap: var(--size-2);
-      }
+      gap: var(--size-2);
 
+      .campaign,
       .lore {
         gap: var(--size-2);
       }

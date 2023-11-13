@@ -30,7 +30,7 @@ export type MenuItem = {
   category: 'campaign' | 'lore';
 };
 
-export type Menu = Record<string, MenuItem[]>;
+export type Menu = Record<MenuItem['category'], MenuItem[]>;
 
 /** Search */
 
