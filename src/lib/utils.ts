@@ -21,8 +21,9 @@ export function getSlug(path: string, extension: string): string {
 
 /** Returns a SHA-256 in hex format of s */
 export async function getHash(s: string) {
-  const utf8 = new TextEncoder().encode(s);
-  return crypto.subtle.digest('SHA-256', utf8).then((hashBuffer) => {
+  const encoder = new TextEncoder().encode(s);
+
+  return crypto.subtle.digest('SHA-256', encoder).then((hashBuffer) => {
     const hashArray = Array.from(new Uint8Array(hashBuffer));
     const hashHex = hashArray.map((bytes) => bytes.toString(16).padStart(2, '0')).join('');
     return hashHex;

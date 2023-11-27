@@ -1,6 +1,6 @@
 <script lang="ts">
   import { enhance } from '$app/forms';
-  import * as config from '$lib/config';
+  import { searchNoResults } from '$lib/config';
   import type { SearchResult } from '$lib/types.js';
   import { formatDate } from '$lib/utils';
 
@@ -41,6 +41,7 @@
     <button type="submit">
       <img class:expanded src="/icons/eye.png" alt="Suchen" />
     </button>
+
     <input
       type="text"
       name="search"
@@ -48,6 +49,7 @@
       on:focus={() => (searching = true)}
       on:blur={() => (searching = false)}
     />
+
     <button type="submit">
       <img class:expanded src="/icons/eye.png" alt="Suchen" />
     </button>
@@ -58,7 +60,7 @@
 <section>
   {#each results as result}
     <h3>
-      <a href={result.post.slug} class="title">
+      <a href="post/{result.post.slug}" class="title">
         {result.post.title}
       </a>
     </h3>
@@ -77,7 +79,7 @@
     </ul>
   {:else}
     {#if form?.success}
-      <h3>{config.searchNoResults}</h3>
+      <h3>{searchNoResults}</h3>
     {/if}
   {/each}
 </section>

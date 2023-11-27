@@ -66,7 +66,6 @@ const deploy = async () => {
     })
 
     if (status && !failed.length) {
-        console.log("");
         console.log('Upload complete')
 
         if (filesToDelete.length > 0) {
