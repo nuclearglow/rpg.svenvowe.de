@@ -1,6 +1,6 @@
 ---
 title: Lowangen - Stadt der phexschen Möglichkeiten
-description: Chronik des Barden Kilas. 15. Tag der Travia, dem 10ten Monat des aventurischen Kalenders – Lowangen, die größte Handelsstadt des Svelltbundes
+description: Chronik des Barden Kilas. 15ten Tag der Travia, dem 10ten Monat des aventurischen Kalenders – Lowangen, die größte Handelsstadt des Svelltbundes
 date: '2023-10-28'
 categories:
   - Chronik
