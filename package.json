@@ -1,13 +1,11 @@
 {
   "name": "rpg.svenvowe.de",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
     "postbuild": "cp package.json build/",
-    "deploy:remote": "node ./scripts/deploy.cjs",
-    "deploy": "run-s build deploy:remote",
     "release": "standard-version --no-verify",
     "preview": "vite preview",
     "test": "npm run test:integration && npm run test:unit",
@@ -16,7 +14,9 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
     "test:integration": "playwright test",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "deploy:remote": "./scripts/deploy.sh",
+    "deploy": "run-s build deploy:remote"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
