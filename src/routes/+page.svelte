@@ -22,29 +22,33 @@
   </div>
 </section>
 
-<style>
+<style lang="scss">
   .posts {
     display: grid;
     gap: 2rem;
-  }
 
-  .post {
-    max-inline-size: var(--size-content-4);
-  }
+    .post {
+      max-inline-size: var(--size-content-4);
+    }
 
-  .post:not(:last-child) {
-    padding-bottom: var(--size-2);
-  }
+    .post {
+      padding-bottom: var(--size-2);
 
-  .title {
-    font-size: var(--font-size-fluid-2);
-  }
+      &:last-child {
+        padding-bottom: var(--size-4);
+      }
+    }
 
-  .date {
-    color: var(--text-2);
-  }
+    .title {
+      font-size: var(--font-size-fluid-2);
+    }
 
-  .description {
-    margin-top: var(--size-3);
+    .date {
+      color: var(--text-2);
+    }
+
+    .description {
+      margin-top: var(--size-3);
+    }
   }
 </style>
