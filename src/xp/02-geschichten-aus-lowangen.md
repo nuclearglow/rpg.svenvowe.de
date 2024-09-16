@@ -1,5 +1,5 @@
 ---
-title: Abenteuerpunkte
+title: Lowangen - Stadt der phexschen Möglichkeiten
 description: Gesammelte Erfahrungen und das Charakterspiel
 date: '2023-10-28'
 categories:

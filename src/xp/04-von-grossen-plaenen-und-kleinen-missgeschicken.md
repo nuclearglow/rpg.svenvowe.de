@@ -1,5 +1,5 @@
 ---
-title: Abenteuerpunkte
+title: Von großen Plänen und kleinen Missgeschicken
 description: Gesammelte Erfahrungen und das Charakterspiel
 date: '2024-01-20'
 categories:

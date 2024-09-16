@@ -1,5 +1,5 @@
 ---
-title: Abenteuerpunkte
+title: Von Geramboloschs Lichtung nach Lowangen
 description: Gesammelte Erfahrungen und das Charakterspiel
 date: '2023-09-22'
 categories:

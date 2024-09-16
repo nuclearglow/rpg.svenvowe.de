@@ -1,5 +1,5 @@
 ---
-title: Abenteuerpunkte
+title: Glücklose Glücksritter
 description: Gesammelte Erfahrungen und das Charakterspiel
 date: '2023-12-16'
 categories:

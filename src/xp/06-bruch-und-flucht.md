@@ -1,5 +1,5 @@
 ---
-title: Abenteuerpunkte
+title: Der Empfang
 description: Gesammelte Erfahrungen und das Charakterspiel
 date: '2024-07-13'
 categories:

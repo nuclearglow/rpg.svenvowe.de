@@ -1,5 +1,5 @@
 ---
-title: Abenteuerpunkte
+title: Ein Ausbruch aus dem Kerker, ein Besuch in der Festung und die erste echte Spur...
 description: Gesammelte Erfahrungen und das Charakterspiel
 date: '2024-03-09'
 categories:
