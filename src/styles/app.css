@@ -17,6 +17,9 @@ html {
   --background-dark: var(--gradient-8);
   --border-dark: var(--gray-9);
   --background-color: #1e1e1e;
+
+  /* Globals */
+  --menu-height: var(--size-8);
 }
 
 :root {

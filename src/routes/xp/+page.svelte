@@ -62,7 +62,7 @@
     h4,
     h3,
     .date {
-      scroll-margin-top: 20px;
+      scroll-margin-top: calc(var(--menu-height) + var(--size-2));
 
       text-align: center;
       width: 100%;

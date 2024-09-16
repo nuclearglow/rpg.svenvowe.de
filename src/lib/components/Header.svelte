@@ -26,7 +26,7 @@
     z-index: 1000;
 
     width: 100%;
-    height: var(--size-8);
+    height: var(--menu-height);
     padding: 0 var(--size-4);
 
     background-color: var(--background-color);
