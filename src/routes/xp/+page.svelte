@@ -62,6 +62,8 @@
     h4,
     h3,
     .date {
+      scroll-margin-top: 20px;
+
       text-align: center;
       width: 100%;
       max-inline-size: 100vw;
