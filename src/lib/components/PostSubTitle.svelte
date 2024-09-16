@@ -32,6 +32,8 @@
       align-items: center;
       justify-content: flex-start;
       gap: var(--size-1);
+
+      font-size: var(--font-size-1);
     }
 
     .xp-link {
@@ -40,6 +42,8 @@
         align-items: center;
         justify-content: flex-start;
         gap: var(--size-1);
+
+        font-size: var(--font-size-1);
       }
     }
 
