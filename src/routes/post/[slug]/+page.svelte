@@ -1,7 +1,6 @@
 <script lang="ts">
-  import XpLink from '$lib/components/XpLink.svelte';
+  import PostSubTitle from '$lib/components/PostSubTitle.svelte';
   import { SEARCH_RESULT_SCROLL_DELAY_MS, SEARCH_RESULT_SCROLL_OFFSET } from '$lib/constants.js';
-  import { formatDate } from '$lib/utils';
   import { onMount } from 'svelte';
 
   export let data;
@@ -43,9 +42,7 @@
   <hgroup>
     <h1>{data.meta.title}</h1>
     <div class="subtitle">
-      <p class="date">{formatDate(data.meta.date)}</p>
-
-      <XpLink hash={data.xpHash} />
+      <PostSubTitle date={data.meta.date} hash={data.xpHash} />
     </div>
   </hgroup>
 
@@ -65,18 +62,6 @@
   h1 {
     font-size: var(--font-size-6);
     max-inline-size: 100%;
-  }
-
-  .subtitle {
-    display: flex;
-    justify-content: flex-start;
-    gap: var(--size-6);
-
-    margin-top: var(--size-2);
-
-    .date {
-      color: var(--text-2);
-    }
   }
 
   @media only screen and (max-width: 1440px) {
