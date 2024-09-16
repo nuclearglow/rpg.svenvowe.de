@@ -1,9 +1,9 @@
-import { json } from '@sveltejs/kit';
-import type { Post } from '$lib/types';
-import { getSlug, stripTags } from '$lib/utils';
 import { isMarkdownFile } from '$lib/guards';
+import type { Post } from '$lib/types';
+import { getHash, getSlug, stripTags } from '$lib/utils';
+import { json } from '@sveltejs/kit';
 
-async function getPosts() {
+function getPosts() {
   const paths = import.meta.glob('/src/posts/*.md', { eager: true });
 
   return Object.entries(paths)
@@ -25,8 +25,15 @@ async function getPosts() {
     .sort((first, second) => new Date(second.date).getTime() - new Date(first.date).getTime());
 }
 
-// provides /api/posts with all posts as JSON
+// provides /api/posts with all posts as JSON, adds the link to the XP page based on the hash of the title
 export async function GET() {
-  const posts = await getPosts();
-  return json(posts);
+  const posts = getPosts();
+  const result = await Promise.all(
+    posts.map(async (post) => ({
+      ...post,
+      xpHash: await getHash(post.title),
+    })),
+  );
+
+  return json(result);
 }

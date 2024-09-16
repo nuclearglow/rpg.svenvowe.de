@@ -1,3 +1,13 @@
+<h3>Der Reichsforst, ehemals Königsforst</h3>
+
+<a href="/maps/lowangen-annotiert.jpg">
+  <img
+    loading="lazy"
+    src="/maps/akt-2-reichsforst.jpg"
+    alt="Der Reichsforst, ehemals Königsforst"
+  />
+</a>
+
 <h3>Stadtkarte von Lowangen</h3>
 
 <a href="/maps/lowangen-annotiert.jpg">

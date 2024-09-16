@@ -1,4 +1,5 @@
 <script lang="ts">
+  import XpLink from '$lib/components/XpLink.svelte';
   import * as config from '$lib/config';
   import { formatDate } from '$lib/utils';
 
@@ -15,7 +16,10 @@
     {#each data.posts as post}
       <div class="post">
         <a href="post/{post.slug}" class="title">{post.title}</a>
-        <p class="date">{formatDate(post.date)}</p>
+        <div class="subtitle">
+          <p class="date">{formatDate(post.date)}</p>
+          <XpLink hash={post.xpHash} />
+        </div>
         <p class="description">{post.description}</p>
       </div>
     {/each}
@@ -43,8 +47,16 @@
       font-size: var(--font-size-fluid-2);
     }
 
-    .date {
-      color: var(--text-2);
+    .subtitle {
+      display: flex;
+      justify-content: flex-start;
+      gap: var(--size-6);
+
+      margin-top: var(--size-2);
+
+      .date {
+        color: var(--text-2);
+      }
     }
 
     .description {

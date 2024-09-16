@@ -1,4 +1,5 @@
 <script lang="ts">
+  import XpLink from '$lib/components/XpLink.svelte';
   import { SEARCH_RESULT_SCROLL_DELAY_MS, SEARCH_RESULT_SCROLL_OFFSET } from '$lib/constants.js';
   import { formatDate } from '$lib/utils';
   import { onMount } from 'svelte';
@@ -41,17 +42,12 @@
   <!-- Title -->
   <hgroup>
     <h1>{data.meta.title}</h1>
-    <p>{formatDate(data.meta.date)}</p>
-  </hgroup>
+    <div class="subtitle">
+      <p class="date">{formatDate(data.meta.date)}</p>
 
-  <!-- Tags -->
-  <!-- TODO: re-instantiate when multiple tags are there, link the tags to display a filtered list
-  <div class="tags">
-    {#each data.meta.categories as category}
-      <span class="surface-4">&num;{category}</span>
-    {/each}
-  </div>
-  -->
+      <XpLink hash={data.xpHash} />
+    </div>
+  </hgroup>
 
   <!-- Post -->
   <div class="prose">
@@ -59,7 +55,7 @@
   </div>
 </article>
 
-<style>
+<style lang="scss">
   article {
     max-inline-size: var(--size-content-4);
     margin-inline: auto;
@@ -71,21 +67,17 @@
     max-inline-size: 100%;
   }
 
-  h1 + p {
-    margin-top: var(--size-2);
-    color: var(--text-2);
-  }
-
-  /* .tags {
+  .subtitle {
     display: flex;
-    gap: var(--size-3);
-    margin-top: var(--size-7);
-  }
+    justify-content: flex-start;
+    gap: var(--size-6);
 
-  .tags > * {
-    padding: var(--size-2) var(--size-3);
-    border-radius: var(--radius-round);
-  } */
+    margin-top: var(--size-2);
+
+    .date {
+      color: var(--text-2);
+    }
+  }
 
   @media only screen and (max-width: 1440px) {
     h1 {

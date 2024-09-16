@@ -4,7 +4,7 @@
   import { menu } from '$lib/config';
 
   let path: string;
-  $: path = $page.url.pathname;
+  $: path = $page?.url?.pathname ?? '';
 </script>
 
 <nav id="menu" class:no-shadow={path === '/search'}>

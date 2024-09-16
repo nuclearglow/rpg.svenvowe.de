@@ -1,7 +1,7 @@
-import { json } from '@sveltejs/kit';
+import { isMarkdownFile } from '$lib/guards';
 import type { TimelineEvent } from '$lib/types';
 import { getSlug, stripTags } from '$lib/utils';
-import { isMarkdownFile } from '$lib/guards';
+import { json } from '@sveltejs/kit';
 
 async function getEvents() {
   const paths = import.meta.glob('/src/events/*.md', { eager: true });

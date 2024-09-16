@@ -5,6 +5,7 @@ import type { Menu } from './types';
 export const title = 'Plot';
 export const description = 'Rooollenspiel';
 export const timelineTitle = 'Zeit';
+export const xpTitle = 'Erfahrungspunkte';
 
 /** Menu */
 export const menu: Menu = {
@@ -16,6 +17,12 @@ export const menu: Menu = {
       category: 'campaign',
     },
     {
+      text: 'XP',
+      url: '/xp',
+      icon: 'xp',
+      category: 'campaign',
+    },
+    {
       text: 'Zeit',
       url: '/timeline',
       icon: 'timeline',
@@ -24,7 +31,7 @@ export const menu: Menu = {
   ],
   lore: [
     {
-      text: 'Gruppe',
+      text: 'PCs',
       url: '/chars',
       icon: 'sheet',
       category: 'lore',
@@ -36,7 +43,7 @@ export const menu: Menu = {
       category: 'lore',
     },
     {
-      text: 'Suchen',
+      text: 'Suche',
       url: '/search',
       icon: 'sheet',
       category: 'lore',

@@ -19,6 +19,7 @@ export type Post = {
   categories: Categories[];
   published: boolean;
   content: string;
+  xpHash: string;
 };
 
 /** Menu */
@@ -63,6 +64,14 @@ export type SearchResponse = {
 export type TimelineEvent = {
   title: string;
   slug: string;
+  date: string;
+  published: boolean;
+  content: string[];
+};
+
+export type XPEvent = {
+  hash: string;
+  title: string;
   date: string;
   published: boolean;
   content: string[];
