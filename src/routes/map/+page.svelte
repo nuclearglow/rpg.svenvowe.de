@@ -1,3 +1,13 @@
+<h3>Burg Falkenwind</h3>
+
+<a href="/maps/akt-2-burg-falkenwind.jpg">
+  <img
+    loading="lazy"
+    src="/maps/akt-2-burg-falkenwind.jpg"
+    alt="Burg Falkenwind und die entdeckten relevanten Orte"
+  />
+</a>
+
 <h3>Der Reichsforst, ehemals Königsforst</h3>
 
 <a href="/maps/lowangen-annotiert.jpg">
