@@ -1,10 +1,20 @@
 @import '@fontsource/courgette';
 @import '@fontsource/oxygen-mono';
 
+@font-face {
+  font-family: 'ChopinScript';
+  src: url('/fonts/ChopinScript.woff2') format('woff2'),
+    url('/fonts/ChopinScript.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   /* font */
   --font-sans: 'Courgette', sans-serif;
   --font-mono: 'Oxygen Mono', monospace;
+  --font-block: 'ChopinScript';
 
   /* dark */
   --brand-dark: var(--orange-3);
@@ -153,4 +163,18 @@ li {
   padding: 1rem;
   border-radius: 8px;
   tab-size: 2;
+}
+
+.prose blockquote {
+  font-family: var(--font-block);
+  color: gold;
+  padding: 1rem;
+  text-align: center;
+  border-left: none;
+  max-inline-size: 100%;
+
+  > p {
+    max-inline-size: var(--size-content-2);
+    font-size: var(--size-5);
+  }
 }
