@@ -36,7 +36,6 @@ Arrigo führte ein Lied mit seiner Begleitung Märte auf, dem wir gebannt lausch
 > Mit Schwert und Armbrust, und viel Applaus.
 > Sie wollten erlegen das edle Wild,
 > Doch das Schicksal zeigte ein anderes Bild.
-
 > Der erste Herr stolpert und fällt in den Schlamm,
 > Sein Schwert durchschneidet seinen Kamm.
 > Der zweite Herr zielt mit der Armbrust so falsch,
