@@ -1,17 +1,15 @@
 ---
-title: Burg Falkenwind und die Alveranie
-description: 12. Tag des Boron, dem 11. Monat des aventurischen Kalender. Kilas und Duplos Eintrag in die Chronik
-date: '2024-11-09'
+title: Ein Attentat auf Burg Falkenwind
+description: 13. Tag des elften Monats, Boron. Etwa 2 Stunden vor Sonnenaufgang.
+date: '2024-12-14'
 categories:
   - Chronik
 published: true
 ---
 
-TODO
+- Die Gruppe nimmt sich die Zeit, einer alten Frau zuzuhören, die Geschichten rund um Allerich und den Umständen seiner Geburt erzählt **(↑ 50 EP)**
+- Die Gruppe erwacht (?) und verschafft sich Zugang zum Festsaal und hat eine geiserhafte Vision **(↑ 100 EP)**
+- Die Gruppe findet ein geheimes Versteck in der Travia-Kapelle und findet einen Nachlass des vorherigen Barons von Falkenwind **(↑ 100 EP)**
+- Lustiges und spannendes Charakterspiel, und schönes Spiel rund um das Bankett zur Jagderöffnung **(↑ 250 EP)**
 
-- Die Gruppe kann sich nach langer Reise im Wald orientieren und erreicht einen befestigten Weg zu Burg Falkenwind **(↑ 50 EP)**
-- Da die Gruppe Alena von Falkenwind gerettet hat, erfährt sie auf dem Weg nach Burg Falkenwind von der anstehenden Krönung des jungen Barons Allerich und der traditionellen Jagd, die bevorsteht. **(↑ 100 EP)**
-- Die Gruppe dreht eine Runde durch Burg Falkenwind und kommt mit Liese Weizenkley ins Gespräch, die der Gruppe erzählt, dass eine seltene Alveranie nicht weit weg wächst. Die Gruppe erfährt durch den Waldläufer in der Taverne den ungefähren Ort und erreicht mit viel Glück und Geschick die geheime Lichtung im Forst. **(↑ 300 EP)**
-- Ein sehr gelungenes und lustiges Charakterspiel in der Taverne, im Stall, mit den Adligen der Burg mit den Verkäufern sowie alleine im Wald runden den Abend ab. **(↑ 150 EP)**
-
-Insgesamt: **600 Erfahrungspunkte**
+Insgesamt: **500 Erfahrungspunkte**
