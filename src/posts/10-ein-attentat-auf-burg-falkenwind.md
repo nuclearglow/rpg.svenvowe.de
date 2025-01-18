@@ -1,6 +1,6 @@
 ---
 title: Ein Attentat auf Burg Falkenwind
-description: 12. Tag des Boron, dem 11. Monat des aventurischen Kalender. Kilas und Duplos Eintrag in die Chronik
+description: 13. Tag des elften Monats, Boron. Etwa 2 Stunden vor Sonnenaufgang. Eintrag von Duplo und Kilas in die Abenteuer-Chronik.
 date: '2024-12-14'
 categories:
   - Chronik
@@ -65,3 +65,47 @@ Zu der Gauklertruppe gehörten noch Akrobaten, Feuerschlucker, Taschenspieler un
 Ich kann nur annehmen, dass Gnar-Al sich eine romantischere Prophezeiung erhofft hatte. Skarsnik zeigte sich von den Künsten der Gaukler gänzlich unberührt und unterhielt sich mit Alrico von Gareth, dem Hüter der Travia-Kapelle auf der Burg Falkenwind. Dieser erzählte, dass, bevor er nach Falkenwind als Berater der Baronie kam, Alena von Falkenwind den Posten inne hatte.
 
 ![Burg Falkenwind](/maps/akt-2-burg-falkenwind.jpg)
+
+Satt und zufrieden und auch gut unterhalten von meinen Gauklerkolleginnen und Kollegen war ich nach diesem langen Tag sicherlich nicht der einzige, der sich auf eine gute Nachtruhe und wohl verdiente Rast gefreut hatte. Die Heuhaufen dufteten und waren ein einladendes Bett während mir noch die Mysterien, welche uns umgeben, im Kopf herum spukten. Ich habe noch Duplos Einträge in der Chronik durchgesehen und fragte mich, welche Wunder und welche Geheimnisse sich noch vor uns offenbaren würden. Mit diesen Geschichten und Überlegungen im Kopf habe ich in den Schlaf gefunden während um mich herum das selige Schnarchen eingesetzt hat.
+
+Das uns die Geschichte schneller wieder in ihren Bann ziehen würde, noch bevor die Nacht ihr Ende fand, hatte weder ich noch meine Gefährtinnen erwartet. Aber so wurden wir in tiefer Nacht, noch bevor die morgendliche Praiosscheibe die ersten Lichtstrahlen über dem Königsforst aufgehen ließ, von einem gellenden Schrei geweckt...
+
+...von einem Moment auf den nächsten sprinteten wir, noch mit Stroh im Haar und schnell gegriffenen Waffen aus dem Stall. Keine glitzernde Rüstung, keine wohlverstauten Tränke und in teils unterschiedlichen Zuständen von Bekleidung eilten wir in den Burghof. Ein Licht flackerte im Erdgeschoss der inneren Burg doch abseits davon war nichts und niemand zu sehen. Eine bedrückende Atmosphäre, lange Schatten am Rande des Sichtfeldes und eine gespentische Ruhe - warum waren wir hier ganz alleine? Irgendetwas stimmte hier nicht aber getrieben von Aufregung, Neugier und Adrenalin hielten wir nicht inne um die Umstände dieser merkwürdigen Nacht zu ergründen. Duplo und ich sprangen beide gewohnt akkrobatisch in dem Baum vorm erleuchteten Fenster um blitzschnell auf Höhe des Fenstersims zu gelangen. Die anderen folgten uns dicht auf den Fersen und Skarsnik schaffte mit Hilfe von Sir Brutus eine "Trittleiter" über welche er mit den anderen zum Fenstersims hoch klettern konnte.
+
+So leise wie in der Eile möglich konnten Duplo und ich das Fenster von außen entriegeln. Was wir dann entdeckten ist der Stoff aus dem Geschichten geschrieben werden...
+
+Das flackernde Licht welches wir von draußen erblickt hatten ging vom lodernden Kaminfeuer in der großen Halle aus in der am vorherigen Abend noch gesungen und gespeist wurde. Jetzt war das Kaminfeuer das einzige was Licht und Leben in die Schwärze der Nacht verbringen zu mochte und eine Szene enthüllte welche gleichermaßen faszinierend wie unheimlich sich vor unseren Augen entspannte.
+
+Alena von Falkenwind, bleich wie der Tod und von seltsamen schwarzen Pocken gezeichnet stand sichtlich entkräftet vor dem Kamin mit, die Ähnlichkeit und die Bilder welche wir bereits gesehen hatten ließen keine Zweifel, dem Geist ihres jüngst verstorbenen Bruders.
+
+Greifbert von Falken­wind. Vater vom Jungen "Baron in spe" Allerich, gestorben im Dienste des Grafen im Süden Aventuriens stand schwer auf seinen Zweihänder gestützt am Kamin.
+
+> “Ach Schwester, mir ist so kalt...”
+
+> “Wärme dich am Feuer, Bruder.
+
+> “Bist du dir sicher, dass deine Retter meinem Jungen beizustehen werden?"
+
+> “Sei unbesorgt, Greifbert, die Herrin Travia hat sie geschickt."
+
+> Ich hätte Allerich einweihen müssen..."
+
+> “Gräme dich nicht, Bruder. Deinen Nachlass habe ich auf der Burg verbergen können. Dort, wo Travias Macht am stärksten ist..."
+
+> Aber was passiert, wenn sie zu spät kommen?"
+
+> “Ein Geheimnis bleibt nur so lange ein Geheimnis, bis seine Zeit gekommen ist. Die alten Elfen wussten dies, und auch Ulfindel weiß das.
+
+> “Ach Schwester, mir ist so kalt ...”
+
+...Während wir noch zu fassen versuchten, was hier vor sich ging wachten wir aus unserem gemeinsamen Traum auf. Wie schon im Traum davor zerriss ein gellender Schrei die Nacht und ließ uns hoch schrecken.
+
+Ohne es ganz zu verstehen hatten wir eine gemeinsame Reise auf die Traumstraße im Schlafe angetreten und mit dem unguten Gefühl dass Schlimmes uns in der wachen Welt erwarten würde sprinteten wir, so spärlich gerüstet und gekleidet wie wir waren zur inneren Burg, welche im Aufruhr war. Nicht nur wir waren vom Schrei in der Nacht aus dem Schlaf gerissen worden.
+
+Und tatsächlich, im Kaminzimmer bei der großen Tafel lag Alena von Falkenwind, sichtbar an der Schwelle des Todes und infiziert mit den mysteriösen schwarzen Pocken, bewusstlos am Boden. Skarsnik reagierte sofort und rief seine Göttin an und verbannte die Krankheit und schenkte der Dame Alena Lebenskraft.
+
+Und doch... Erwachen konnte sie nicht. Wie gefangen unter einem dunklen Schatten lag Alena im Koma. Hätte Skarsnik nicht so geistesgegenwärtig reagiert, wäre sie wohl auf Golgaris Schwingen ins Reiche Borons entschwunden. Während Skarsnik und Gnar'Al dafür Sorge trugen, dass Alena in Sicherheit und Pflege gebracht wurde, machten Duplo und ich uns hingegen schnellstmöglich in die Kapelle der Travia.
+
+Hastig warf ich eine Illusion und wir beide machten uns zusammen daran den Altar und Schrein an der Spitze der Kapelle abzusuchen. Und tatsächlich wurden wir fündig und fanden ein geheimes Fach im Schrein der Travia. Ein bisschen hastig knackten wir da Ganze und da ich bei all der Aufregung meinen illusorischen Sichtschutz nicht zu halten vermochte, meldet sich prompt ein Kirchenbesucher, welcher hier in der Kapelle Zuflucht gesucht hatte und begann zu schimpfen was uns denn einfallen würde.
+
+Wir steckten schnell den errungenen Inhalt, eine kleines Päckchen, ein und schauten dass wir uns zurück zogen. Einige Seiten aus einem Märchenbuch, eine merkwürdige Linse und 4 Jadestaturen mit Aspekten der Travia. Und so sind wir wieder im Stall angekommen und wollen beratschlagen wie wir jetzt weiter vorgehen können. Das Abenteuer ruft und diese Geschichte will weiter geschrieben werden.
