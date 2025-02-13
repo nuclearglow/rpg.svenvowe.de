@@ -3,7 +3,7 @@ title: Burg Falkenwind und die Alveranie
 description: 12. Tag des Boron, dem 11. Monat des aventurischen Kalender. Kilas und Duplos Eintrag in die Chronik
 date: '2024-11-09'
 categories:
-  - Chronik
+  - Abenteuerpunkte
 published: true
 ---
 

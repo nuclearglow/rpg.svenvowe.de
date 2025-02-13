@@ -3,7 +3,7 @@ title: Verzauberte Bauern, Riesenratten und Monsterspinnen
 description: 12. Tag des Boron, dem 11. Monat des aventurischen Kalender. Duplos Eintrag in die Chronik
 date: '2024-10-25'
 categories:
-  - Chronik
+  - Abenteuerpunkte
 published: true
 ---
 

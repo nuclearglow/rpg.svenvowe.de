@@ -3,7 +3,7 @@ title: Ein Attentat auf Burg Falkenwind
 description: 13. Tag des elften Monats, Boron. Etwa 2 Stunden vor Sonnenaufgang.
 date: '2024-12-14'
 categories:
-  - Chronik
+  - Abenteuerpunkte
 published: true
 ---
 
