@@ -134,6 +134,12 @@ li {
 .prose p {
   max-inline-size: var(--size-content-4);
   text-wrap: pretty;
+
+  &:has(img) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .prose p.highlight::before {
@@ -166,6 +172,10 @@ li {
 }
 
 .prose blockquote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   font-family: var(--font-block);
   color: gold;
   padding: 1rem;
