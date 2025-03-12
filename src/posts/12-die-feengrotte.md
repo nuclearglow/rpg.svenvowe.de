@@ -1,5 +1,5 @@
 ---
-title: Die Feegrotte
+title: Die Feengrotte
 description: Irgendwo im Anderswo - Chronik des Barden Kilas wahrscheinlich am 13ten Boron
 date: '2025-02-15'
 categories:
