@@ -9,6 +9,8 @@ published: true
 
 ![Die Elfenruinen](/maps/akt2-elfenruinen.jpg)
 
+## Kilas Chronik
+
 Nachdem wir alle Spinnen und ähnliches Ungeheuer erledigt hatten, sprinteten wir zu dem Hirsch, der verletzt auf dem Boden lag. Rohla war uns scheinbar kurz nach unserem Aufbruch in den Wald hinterhergeeilt und schaute zwischen den Ästen hervor. Sie heilte unsere Kampfverletzungen und nahm den Hirsch unter die Lupe. Eine große, schwarze Wunde kla te an seiner Flanke. Trotz aller Bemühungen löste sich der Hirsch in Luft auf, und an seiner Stelle erschien eine junge Frau, die eine Gerte in der Hand hielt. An ihrer Hüfte sahen wir die gleiche Verletzung wie zuvor beim Hirsch.
 
 Kilas sammelte seine letzten Kräfte und versuchte, sämtliche Magie aus ihr zu bannen. Die Frau erwachte und blickte uns an, während Kilas erschöpft zusammen sank. Sie stellte sich als Ulfindel, holde Fee, vor. Sie müsse bald in ihre Welt zurückkehren. Sie erzählte von einem Pakt mit den Elfen, und auf unseren Bericht über den Baron erwiderte sie, wir mögen ihn zu ihr bringen.
@@ -71,6 +73,10 @@ Mit allen Sinnen gelang es uns, ein gutes Stück von Allerichs Duftspur bzw. der
 
 Der Wasserfall stürzte 15 Meter in die Tiefe, dennoch entschied ich mich, gesichert durch ein Seil und einen Warg, die Erkundung alleine zu beginnen. Kurz darauf schwankte ich in einer Höhe von 10 Metern und fing an zu schaukeln, um auf die andere Seite des Wasserfalls zu gelangen. Ich knallte dermaßen an die dahinterliegende Felswand, dass auch meine Gefährten die um meinen Kopf kreisenden Vögel zwitschern hörten. Kilas entschied sich kurzerhand, mich zu unterstützen, und fand einen kleinen Vorsprung, den ich ebenfalls erklomm. Kilas entdeckte eine verdächtige dunkle Stelle im Wasserfall, und gemeinsam schwangen wir uns durch den Wasserfall.
 
+Hier möchte ich nun nach Duplolas Chronik-Eintrag anschließen und den Faden der Geschichte weiter spinnen was als nächstes geschah:
+
+## Duplos Erzählung
+
 Nach unserer abenteuerlichen Kletteraktion durch den Wasserfall standen wir in einem merkwürdig beschaffenen Höhleneingang. Nicht wirklich behauen, aber auch nicht vom Wasser in den Felsen gegraben, schien das Ganze einerseits fast wie gewachsen und andererseits doch so zeitlos, als wäre es stets dort gewesen. Neugierig ließ ich eine meiner Spielkarten, mit einer kleinen Melodie versehen, den Gang vor uns als Lichtquelle voran schweben und so traten wir ins Dunkel, das tosende Rauschen des Wasserfalls im Rücken. Dem anmutig geformten Gang folgend, kamen wir nach nur wenigen Momenten in eine weit gefasste Kaverne, in der sich eine große, mit ganzen Reliefs versehene, steinerne Tür ohne Schloss und ohne Fuge fand. Einzig der Torbogen welcher die kunstvoll verzierte Wand einrahmte, ließ darauf schließen, dass es sich hierbei um eine Pforte handelte.
 
 Die gewieften Abenteuererinnen, die wir sind, schickten wir unseren Ritter Skarsnik in glänzender Rüstung mit dem in Blumenform gewundenen Stab der Ulfindel voraus. Und wie es sich eben für ein gutes Märchen gehört, vermochte die gesegnete kleine Blume der Fey, das Tor in ein verzückend überirdisches Leuchten zu tauchen. Lautlos glitt das Tor auf, welches uns später in einen ganz besonderen Garten führen sollte...
@@ -80,6 +86,8 @@ Zuerst fanden wir uns jedoch auf einer breiten geschwungenen Treppe wieder, welc
 Ein bisschen verhalten - wir sind schon zu oft kopfüber in irgendwelche Fallen gestolpert – sind Duplo und ich voraus gegangen, um einen Blick darauf zu werfen, ob die Treppe nicht irgendwelche fiesen Überraschungen für uns bereit hielt.
 
 Die faszinierenden kleinen Leuchtkäfer, die fluoreszierenden Flechten an Decke und Wänden und die anmutig empor und hinab wachsenden Stalagmiten und Stalaktiten gaben einen wahrlich zauberhaften Anblick ab. Meine Worte werden dem kaum gerecht, wie wundersam diese kleine Welt abseits der Welt auf uns wirkte.
+
+Was mich als Barde noch umso mehr in den Bann dieser Welt schlug, war die sachte Melodie welche mit durchschreiten der Pforte ins Anderswo wie das behutsame Flüstern des Windes jeden Schritt unserer Erkundungen begleitete. Eine sachte Melodie welche harmonisch und unaufdringlich, getragen und dennoch verspielt nur schwerlich vorher zu sehen war. Ich habe dennoch versucht die Melodie ein wenig aufzugreifen um ein Gefühl für die Wunder die sich um uns entfalteten zu bekommen...
 
 Die breite Wendeltreppe durch die von Leuchtkäfern gesäumte Tropfsteinhöhle sollte aber nur der Anfang einer außergewöhnlichen Reise sein. Nach geraumer Zeit des Abstiegs wartete auf uns der eben erwähnte, ganz besondere Garten der Ulfindel. Hier durchkreuzten kleine, von Muscheln gesäumte Pfade, im Kontrast zu einem wild wachsenden Pilzwald. Ein Ort der nicht nur mich ein wenig an unsere Expedition unter Stoneholm erinnerte. Pilze in allen Größen und Farben – von gewöhnlicher Größe bis hin zu wahren Pilzriesen, welche den großen Bäumen des Königsforstes in nichts nachzustehen schienen, wuchsen in einer riesigen Kaverne, die weiter reichte als wir im ersten Moment zu überblicken vermochten.
 
@@ -110,10 +118,7 @@ Was uns dann erwartete – ich sag mal dagegen waren die Winzlinge mit ihren Sch
 Voll der Wunder über die fantastische Welt dieses ungewöhnlichen Ortes, waren wir etwas
 überrascht, als unsere beiden Waldläuferinnen, welche für uns den Weg auskundschafteten, eine nicht gerade kleine Blutlache inmitten der Pilzbäume vorfanden.
 
-Während wir noch überlegten, was es damit auf sich haben könnte und schon überlegten
-ob der Baron in Spe hier vielleicht sein unrühmliches Ende gefunden hatte – immerhin
-waren wir ja seiner Spur folgend schlussendlich hier gelandet – kamen plötzlich irrsinnig
-keckernde, nicht mehr als Hobbit-große Feen auf uns zu gerannt.
+Während wir noch überlegten, was es damit auf sich haben könnte und mutmaßten ob der Baron in Spe hier vielleicht sein unrühmliches Ende gefunden hatte – immerhin waren wir ja seiner Spur folgend schlussendlich hier gelandet – wechselte das sanfte Flüstern der harmonischen Melodie welche uns bis hier hin begleitet hatte plötzlich in eine disonante Kakaphonie. Es schmerzte geradezu in den Ohren und traf zumindest mich wie ein unsichtbarer Hammerschlag als just im selben Moment irrsinnig keckernde, nicht mehr als Hobbit-große Feen auf uns zu gerannt kamen."
 
 ![Die Elfenruinen](/maps/akt2-feengrotte-redcaps.jpg)
 
