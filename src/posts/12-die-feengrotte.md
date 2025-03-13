@@ -9,7 +9,7 @@ published: true
 
 ![Die Elfenruinen](/maps/akt2-elfenruinen.jpg)
 
-## Kilas Chronik
+## Duplos Erzählung
 
 Nachdem wir alle Spinnen und ähnliches Ungeheuer erledigt hatten, sprinteten wir zu dem Hirsch, der verletzt auf dem Boden lag. Rohla war uns scheinbar kurz nach unserem Aufbruch in den Wald hinterhergeeilt und schaute zwischen den Ästen hervor. Sie heilte unsere Kampfverletzungen und nahm den Hirsch unter die Lupe. Eine große, schwarze Wunde kla te an seiner Flanke. Trotz aller Bemühungen löste sich der Hirsch in Luft auf, und an seiner Stelle erschien eine junge Frau, die eine Gerte in der Hand hielt. An ihrer Hüfte sahen wir die gleiche Verletzung wie zuvor beim Hirsch.
 
@@ -73,9 +73,9 @@ Mit allen Sinnen gelang es uns, ein gutes Stück von Allerichs Duftspur bzw. der
 
 Der Wasserfall stürzte 15 Meter in die Tiefe, dennoch entschied ich mich, gesichert durch ein Seil und einen Warg, die Erkundung alleine zu beginnen. Kurz darauf schwankte ich in einer Höhe von 10 Metern und fing an zu schaukeln, um auf die andere Seite des Wasserfalls zu gelangen. Ich knallte dermaßen an die dahinterliegende Felswand, dass auch meine Gefährten die um meinen Kopf kreisenden Vögel zwitschern hörten. Kilas entschied sich kurzerhand, mich zu unterstützen, und fand einen kleinen Vorsprung, den ich ebenfalls erklomm. Kilas entdeckte eine verdächtige dunkle Stelle im Wasserfall, und gemeinsam schwangen wir uns durch den Wasserfall.
 
-Hier möchte ich nun nach Duplolas Chronik-Eintrag anschließen und den Faden der Geschichte weiter spinnen was als nächstes geschah:
+Hier möchte ich nun nach Duplolas Chronik-Eintrag anschließen und den Faden der Geschichte weiter spinnen was als nächstes geschah...
 
-## Duplos Erzählung
+## Kilas Chronik
 
 Nach unserer abenteuerlichen Kletteraktion durch den Wasserfall standen wir in einem merkwürdig beschaffenen Höhleneingang. Nicht wirklich behauen, aber auch nicht vom Wasser in den Felsen gegraben, schien das Ganze einerseits fast wie gewachsen und andererseits doch so zeitlos, als wäre es stets dort gewesen. Neugierig ließ ich eine meiner Spielkarten, mit einer kleinen Melodie versehen, den Gang vor uns als Lichtquelle voran schweben und so traten wir ins Dunkel, das tosende Rauschen des Wasserfalls im Rücken. Dem anmutig geformten Gang folgend, kamen wir nach nur wenigen Momenten in eine weit gefasste Kaverne, in der sich eine große, mit ganzen Reliefs versehene, steinerne Tür ohne Schloss und ohne Fuge fand. Einzig der Torbogen welcher die kunstvoll verzierte Wand einrahmte, ließ darauf schließen, dass es sich hierbei um eine Pforte handelte.
 
