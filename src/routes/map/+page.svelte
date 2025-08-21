@@ -1,3 +1,9 @@
+<h3>Simyala</h3>
+
+<a href="/maps/akt3-simyala.jpg">
+  <img loading="lazy" src="/maps/akt3-simyala.jpg" alt="Simyala - zwischen Raum und Zeit" />
+</a>
+
 <h3>Burg Falkenwind</h3>
 
 <a href="/maps/akt-2-burg-falkenwind.jpg">
