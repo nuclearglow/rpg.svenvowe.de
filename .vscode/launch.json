@@ -14,7 +14,7 @@
       "name": "Debug Brave",
       "type": "chrome",
       "request": "launch",
-      "runtimeExecutable": "/usr/bin/brave-browser",
+      "runtimeExecutable": "/usr/bin/brave",
       "osx": {
         "runtimeExecutable": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
       },

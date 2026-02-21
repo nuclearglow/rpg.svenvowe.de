@@ -1,13 +1,14 @@
+import { SEARCH_AREA_LENGTH } from '$lib/constants';
 import type { Post, SearchResponse, SearchResult, SearchResultMatch } from '$lib/types';
 import { getAllParagraphIndices, getHash, getParagraphIndices } from '$lib/utils';
 import { redirect } from '@sveltejs/kit';
-import { SEARCH_AREA_LENGTH } from '$lib/constants';
 
 export const prerender = false;
 
 export const actions = {
   search: async (event): Promise<SearchResponse> => {
     const formData = await event.request.formData();
+
     const searchTerm = String(formData.get('search'))?.trim();
 
     if (!searchTerm) {
