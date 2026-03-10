@@ -13,24 +13,6 @@ Ein wenig tut mir da selbst als Barde und Geschichtenerzähler der Kopf schwirre
 
 Zugegebenermaßen kann das Ganze schon erdrückend sein und Xenia hat man nach dem Ritual sichtlich angemerkt, dass Sie da mit dem scheinbar unaufhaltsamen Lauf der Dinge gehadert hat. Sie hat nicht gerade zu knapp dem Schnapps zugesprochen, als wir aufgebrochen sind um bei Amarylion Grünhaar, eben jener mysteriösen Zauberweberin welche uns in die Vergangenheit geholt hat, nun endlich vorzusprechen. Beseelt von der Hoffnung endlich ein paar Antworten auf brennende Fragen zu bekommen über die wir schon angeregt diskutiert hatten, machten wir uns auf den Weg.
 
-Wir begaben uns zu dem Brunnen und warfen einen Blick hinein. Ich, Duplo, warf eine Münze hinab, um die Tiefe abzuschätzen. Es dauerte einige Momente, bis sie unten aufkam. Schließlich beschlossen Kilas und ich, den Brunnenschacht hinabzusteigen – Rücken an Rücken gelehnt, die Beine gegen die Wand gestemmt. Kurz vor dem Ende rutschte ich jedoch ab und landete schmerzhaft auf meinem Allerwertesten.
-
-Währenddessen entdeckten die anderen oben eine Inschrift mit den vielsagenden Worten:
-
-> „Reinheit ruht in tiefer Stille.
-
-> Ruf mich mit Gabe, nicht mit Wille.
-
-> Gib, was rein ist – klar und licht,
-
-> so erhebt sich meine Stimme und spricht.
-
-> Sprich meinen Namen, sanft und hell:
-
-> Nerivelle...“
-
-![Simyala - Brunnen](/maps/simyala-brunnen.jpg)
-
 ## Die zeitlose Magierin
 
 Der Karte von Simyala die wir hatten folgend sind wir zum Baum des Lebens, unsere beiden Waldläuferinnen zielstrebig vorne weg. Der Baum des Lebens war höher noch als der Hügel im Norden mit den Aussichtsplattformen der Wache. Abseits der Geschäftigkeit der Elfenstadt, majestätisch und ruhig zugleich, stand er in einem Tal inmitten eines kleinen Waldes.
