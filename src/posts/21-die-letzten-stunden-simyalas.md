@@ -69,6 +69,8 @@ Ich hab Jakob Krakel durch die Gassen geschickt und auch selber ein kleines Stü
 
 Ist schon eine gute Sache, zumindest einen kleinen Ausweg für diejenigen zu haben, die nicht an den Kämpfen teilnehmen können oder wollen. So sind wir frohgemut Xenia hinterher die zum Wassergeist beim Brunnen hin ist. Den Trank hat sie dort im Brunnen vergossen und den Wassergeist beschworen. Und da war Sie wieder, dieser mystische Erscheinung - und sichtlich erfreut, dass wir ihren Brunnen von der Vergiftung heilen konnten.
 
+![Simyala - Brunnen](/maps/simyala-brunnen.jpg)
+
 Vielleicht können wir nicht den ganz großen Lauf der Geschichte verändern. Aber auch wenn das Schicksal wie ein Damokles Schwert über uns droht - es ist doch eine schöne Sache die kleinen Taten zu vollbringen die in unserer Macht stehen. Leuten ein sicheres Refugium vermitteln, einen Brunnen reinigen und einen alten Wassergeist und den umliegenden Bewohnerinnen eine Freude machen.
 
 ## Mit phexscher Heimlichkeit durch den unterirdischen Fluss
