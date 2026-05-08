@@ -20,10 +20,7 @@
 <div class="demon">
   <img src="/icons/azekiel.png" alt="Azekiel" />
 
-  <p>
-    Wer die Vergangenheit kontrolliert, kontrolliert die Zukunft. Wer die Gegenwart kontrolliert,
-    kontrolliert die Vergangenheit. Wer die Gedanken kontrolliert, kontrolliert die Realität!
-  </p>
+  <p>Wer die Vergangenheit beherrscht, kontrolliert die Zukunft.</p>
 </div>
 
 <style lang="scss">
