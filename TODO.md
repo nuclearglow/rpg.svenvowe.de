@@ -1,12 +1,11 @@
 # TODO
 
-## style adjustments
+## Finale
 
-- preislisten book slider -> https://codemyui.com/css-only-magazine-page-turning-animation/
-- check [MdsVex options](https://mdsvex.pngwn.io/docs/#options)
-
-## research
-
-- svelte
-- sveltekit
-- open-props
+- Update Website
+- Karte anpassen und ausdrucken
+- Texte checken
+- Encounter Design aufsetzen
+- Figuren checken: was haben wir?
+-
+- drucken: Azekiel + Basiliskenkönig + notwendige Figuren
